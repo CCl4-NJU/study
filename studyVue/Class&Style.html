@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Class&Style</title>
+	<script src="vue.js"></script>
+	<style>
+		.static{
+			height: 100px;
+			width:100px;
+			background: #000;
+		}
+		.class-a{
+			background: red;
+		}
+		.class-b{
+			background: green;
+		}
+	</style>
+</head>
+<body>
+	<div id="vue">
+		<div class="static" v-bind:class="{'class-a':isA,'class-b':isB}"></div>
+		<!-- <div class="static" v-bind:class="classObject"></div> -->
+		<div v-bind:style="styleObject"></div>
+	</div>
+</body>
+<script>
+	var vm = new Vue({
+		el:"#vue",
+		data:{
+			isA:true,
+			isB:false,
+			// classObject:{
+			// 	'class-a':true,
+			// 	'class-b':false
+			// }
+			styleObject:{
+				height:'500px',
+				width:'500px',
+				background:'blue'
+			}
+		}
+	});
+</script>
+</html>

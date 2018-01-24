@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+<body>
+	
+</body>
+<script type="text/javascript">
+console.log(String.fromCharCode(0x20BB7))
+console.log(String.fromCodePoint(0x20BB7))
+console.log("x".repeat(3))
+console.log("hello".includes('o'))
+let str = '(name)=>`Hello ${name}`'
+let func = eval(str)
+console.log(func("zfl"))
+
+let str1 = "console.log('字符串1')"
+let str2 = `()=>{console.log("模板字符串2")}`
+
+eval(str1)
+
+let func2 = eval(str2)
+func2()
+
+let obj = {
+	id: 1
+}
+console.log(obj.id)
+console.log(eval("obj").id)
+
+let str3 = "for(let i=0;i<3;i++){console.log(i)}"
+eval(str3)
+
+let str4 = `console.log("\`\`")`
+eval(str4)
+
+
+let arg1 = 5
+let arg2 = 10
+let arg3 = 15
+function tag(stringArr, ...values){
+	console.log(stringArr[0])
+	console.log(stringArr[1])
+	console.log(stringArr[2])
+	console.log(values[0])
+	console.log(values[1])
+	console.log(values[2])
+}
+tag`str1 ${arg1 + arg2}str2 ${ arg1 * arg2 }str3 ${ arg3 }`
+
+function passthru(strs, ...values){    //兼容所有情况  字符串、参数位置前后
+	let result = ""
+	let length = strs.length > values.length? strs.length:values.length
+
+	for(let i=0; i<values.length; i++){
+		result += strs[i] + values[i];
+	}
+
+	result += strs[values.length]
+	return result
+}
+
+console.log(passthru`${arg3}The total is ${arg3}(${arg3*10} with tax)${arg3}`)
+
+let set1 = new Set(['a', 'a'])
+console.log(set1)
+
+function countSymbols(string){
+	return Array.from(string)
+}
+console.log(countSymbols.name)
+console.log(countSymbols("zfl"))
+
+//["alpha", "beta", "copy", "delta"].copyWithin(1, 2, 3);
+//不管用
+let arr1 = ['a', 'b', 'c']
+let arr2 = ['d', 'e', 'f']
+console.log([...arr1,...arr2])
+
+let obj1 = {
+	name: 'zfl'
+}
+obj1 = JSON.stringify(obj1)
+console.log([...obj1])
+
+function Timer(){
+	this.seconds = 0
+	setInterval(()=>{
+		this.seconds++     //this只在Timer的函数体内
+	}, 1000)
+}
+let timer = new Timer()
+setTimeout(()=>{
+	console.log(timer.seconds)
+},3100)
+
+function foo(){
+	this.id = 42
+	return ()=>{
+		this.id = 43
+		return ()=>{
+			this.id = 44
+			return ()=>{
+				this.id = 45
+				console.log("id:", this.id)
+			}
+		}
+	}
+}
+foo()()()()   //依次注释 45、44等，this依次向外直到foo
+</script>
+</html>

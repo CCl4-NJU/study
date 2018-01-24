@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>列表渲染&方法与事件处理</title>
+	<script src="vue.js"></script>
+</head>
+<body>
+	<div id="form">
+		<ul>
+			<li v-for="value in object">
+				{{$key}}:{{value}}
+			</li>
+			<li v-for="json in jsons">
+				{{json.text}}
+			</li>
+		</ul>
+	</div>
+	<div id="msg">
+		<p v-on:click.stop="greet('zfl')">click me</p>
+		<!-- 阻止事件冒泡 的修饰符-->
+		<input type="text" v-on:keyup.enter="submit" v-model="input">
+	</div>
+</body>
+<script>
+	var vm = new Vue({
+		el : "#form",
+		data : {
+			object : {
+				FirstName: 'John',
+			    LastName: 'Doe',
+			    Age: 30
+			},
+			jsons : [
+				{ text: '1' },
+				{ text: '2' },
+				{ text: '3' },
+				{ text: '4' }
+			]
+		}
+	});
+	vm.jsons.$set(0,{ text : '0' });   //改掉jsons数组中的第0条数据
+	var on = new Vue({
+		el:'#msg',
+		data :{
+			input : ''
+		},
+		methods :{
+			greet:  function(val){
+					alert("hello   "+val);
+			
+			},
+			submit : function(){
+				alert(this.input);
+			}
+		}
+	});
+
+</script>
+</html>

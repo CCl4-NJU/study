@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vuejs</title>
+	<script src="vue.js"></script>
+</head>
+<body>
+	<div id="app">
+		<p>{{message}}</p>
+		<input type="text" v-model="message">
+		<li v-for="todo in todos">
+			{{todo.text}}
+		</li>
+		<button v-on:click="reverseMessage">click me</button>
+		<br>
+		<p>add things</p>
+		<input type="text" v-model="add" v-on:keyup.enter="enter">
+		<li v-for="addthing in addthings">
+			{{addthing.text}}
+			<button v-on:click="remove($index)">删除</button>
+		</li>
+		<hr>
+		<h1 v-if="trueorfalse">true</h1>
+		<h1 v-else>false</h1>
+		<hr>
+		<h1 v-show="trueorfalse">show</h1>
+		<hr><!--过滤器-->
+		<p>{{message|uppercase}}</p>
+		<p>{{message|uppercase|reverse}}</p>
+	</div>
+</body>
+	<script>
+		Vue.filter('reverse',function(value){
+			return value.split('').reverse().join('')
+		})//必须写在上面
+		new Vue({
+			el:"#app",
+			data:{
+				trueorfalse:true,
+				message:"Hello World",
+				add:"",
+				todos:[
+					{text:'1'},
+					{text:'2'},
+					{text:'3'}
+				],
+				addthings:[
+					{text:"add some thing"}
+				]
+			},
+			methods: {
+				reverseMessage:function(){
+					this.message = this.message.split('').reverse().join('')  //反向写出
+				},
+				enter:function(){
+					var text = this.add.trim(); //trim  移除字符串所有的换行符
+					if(text){
+						this.addthings.push({text:text});   //加到数组的后面
+						this.add="";
+					}
+				},
+				remove:function(index){
+					console.log(index);
+					this.addthings.splice(index,1);
+				}
+			}
+		})
+		
+	</script>
+</html>

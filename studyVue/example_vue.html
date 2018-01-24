@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vue实例</title>
+	<script src="vue.js"></script>
+</head>
+<body>
+	<div id="example">
+		<p>{{dta.a}}</p>
+		<p>{{* dta.a}}</p><!--只会改变一次-->
+		<ul v-for="id in ids">
+			<li class = "li-{{id.text}}">{{id.text}}</li>
+		</ul>
+		<p>1+2={{add}}</p><!--不能传值？瞬间石化-->
+		firstname:<input type="text" v-model="firstname">
+		lastname: <input type="text" v-model="lastname">
+		<p>funllname:{{fullname}}</p>
+	</div> 
+</body>
+<script>
+	var data = {
+		a : 1
+	}
+	//声明构造函数
+	var vm = new Vue({
+		el:'#example',
+		data : {
+			dta : data,   //此处的data为上面的object  data
+			ids:[
+				{ "text" :'1'},
+				{ "text" :'2'},
+				{ "text" :'3'}
+			],
+			firstname:'',
+			lastname:''
+		},
+		//计算属性
+		computed:{
+			//getter
+			add : function (){
+				return 1+2;
+			},
+			fullname: {
+				get:function(){
+				return this.firstname+this.lastname
+				},
+				//setter
+				set: function(newValue){
+					var names = newValue.split(' ');
+					this.firstname = names[0];
+					this.lastname = names[names.length -1];
+				}
+			}
+		},
+		created : function(){
+			console.log("a is"+this.a);
+			//created钩子在实例创建后调用
+			//类似的还有compiled、ready、destroyed
+			//this指向调用它的Vue实例
+		}
+	});
+	console.log(vm.$el);
+	console.log(vm.$data);
+	var MyCompontent = Vue.extend({
+		//扩展选项
+	});
+	//所有的MyComponent实例都将预定义的扩展选项被创建
+	var MyCompontentInstance = new MyCompontent();
+	vm.$watch('a', function (newVal, oldVal){
+		 // 这个回调将在 `vm.a`  改变后调用
+	});
+	vm.fullname = 'John Doe';    //调用fullname的setter设置
+	
+</script>
+</html>
