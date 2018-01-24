@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Javascript</title>
+	<script src="script.js"></script>
+</head>
+<body onload="startTime()"> <!--onload="checkCookies()" --><!-- 还有onunload事件--><!--在网页开始和结束的时候起作用-->
+    <p id ="p1">变颜色</p>
+    <p id="p2">获取元素</p>
+    <p id="p3">隐藏和显示</p>
+    <p id="p4">改变类</p>
+    <p id="p6"></p>
+    <h1 onclick="this.innerHTML='点击成功'">点击这里</h1><!--innerHTML-->
+   	<div id="main" >
+		<p>The DOM is very useful.</p>
+		<p>本例演示 <b>getElementsByTagName</b> 方法。</p>
+		<div id="main_1" onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:green; width:120px;height:20px;padding:40px ;color:#ffffff;">把鼠标移到上面
+		<p id="p5">我要删除它</p>
+		</div>
+	<div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color:red;color:#ffffff;width:90px;height:20px;padding:40px;font-size:12px;">请点击这里</div>
+
+	<!--告诉这是js--><!--直接加--><!--可以放入html中的任意位置-->
+	<script type="text/javascript">
+		var d=new Date();
+		var weekday=new Array(7)
+		weekday[0]="星期日";
+		weekday[1]="星期一";
+		weekday[2]="星期二";
+		weekday[3]="星期三";
+		weekday[4]="星期四";
+		weekday[5]="星期五";
+		weekday[6]="星期六";
+		document.write("<br />"+"今天是"+weekday[d.getDay()]+"<br />");
+		d.setFullYear(2015,05,13);
+		document.write(Date()+'<br>'+d+"<br />"+d.getTime());//日期  getTime(),从1970年1月1日到设置的时间的毫秒数
+		function checkTime(i)
+		{
+			if (i<10) {
+			  i="0" + i;
+			}
+			return i;
+		}
+		function startTime(){
+			var today=new Date();
+			var h=today.getHours();
+			var m=today.getMinutes();
+			var s=today.getSeconds();
+			// add a zero in front of numbers<10
+			m=checkTime(m);
+			s=checkTime(s);
+			document.getElementById("p6").innerHTML=h+":"+m+":"+s;
+			var t=setTimeout("startTime()",500);
+		}	
+		document.write("hello");//要输出的语句
+		//单行注释
+		/*多行注释*/
+		var num=80;//可以是整形 字符任意变量
+		if(num>=80)//if-else条件语句
+		{
+			document.write("很棒");
+		}
+		else
+		{
+			document.write("加油");
+		}
+		function mOver(obj){
+			obj.innerHTML="Thank you";
+			document.getElementById("main_1").style.backgroundColor="red";
+		}
+		function mOut(obj){
+			obj.innerHTML="把鼠标移到上面";
+			document.getElementById("main_1").style.backgroundColor="blue";
+		}
+		function mDown(obj){
+			obj.style.backgroundColor="#1ec5e5";
+			obj.innerHTML="请释放鼠标按钮";
+		}
+		function mUp(obj){
+			obj.style.backgroundColor="olive";
+			obj.innerHTML="谢谢";
+		}
+		//定义函数
+		function hanshuming()
+		{
+			document.write("调用函数");//调用后的代码
+		}
+		//输出方式
+		var mystr="张";
+		document.write(mystr+"富"+"<br/>"+"利"+'<br/>');
+		alert("弹出");//弹出框提示
+		alert(mystr+"的长度是"+mystr.length);//有顺序
+		alert("富利");
+		//confirm用法
+		function confirmyongfa()
+		{
+			var mymessage=confirm("你是男士吗?");
+			if(mymessage==true)
+			{
+				document.write("你是男士");
+			}
+			else
+			{
+				document.write("你是女士");	
+			}
+		}
+		//prompt消息对话框
+		function promptyongfa()
+		{
+			var score;
+			score=prompt("请输入你的成绩");
+			if (score>=60)
+			{
+				document.write("你及格了");
+			}
+			else
+			{
+				document.write("你没及格");
+			}
+		}
+		function windowopen()
+		{
+			window.open('http://www.baidu.com','_blank','');
+			//语法  window.open('网站地址或路径','窗口名称','参数字符串')
+		}   
+		//window.close()??
+		//获取元素
+		var get=document.getElementById("p2");
+		document.write("<br/>"+get.innerHTML+"成功");
+		//改变元素
+		get.innerHTML="改变";
+		document.write("<br />"+get.innerHTML+"成功");
+		//改变HTML样式
+		document.getElementById("p1").style.color="red";
+		document.getElementById("p1").style.backgroundColor="#ccc";
+		//显示和隐藏
+		function yincang()
+		{
+			var mystr=document.getElementById("p3");
+			mystr.style.display="none";
+		}
+		function xianshi()
+		{
+			var mystr=document.getElementById("p3");
+			mystr.style.display="block";
+		}
+		//改变类
+		function classname(){
+			var mystr=document.getElementById("p4");
+			mystr.className="class1";
+		}
+		function resets(){
+    	var b=confirm("是否取消设置？");
+    	if(b){
+    	p1.removeAttribute("style"); 
+    	}
+    	}
+    	//try catch throw 检验出错
+    	function cuowu()
+    	{
+    		var txt="";
+    		try{
+  				alert("Welcome guest!");
+  			}
+			catch(err){
+  			txt="There was an error on this page.\n\n";
+  			txt+="Error description: " + err.message + "\n\n";
+  			txt+="Click OK to continue.\n\n";
+  			alert(txt);
+  			}
+		}
+		function mythrow(){
+			try{
+  			var x=document.getElementById("demo").value;
+  			if(x=="")    throw "empty 要显示的";
+  			if(isNaN(x)) throw "not a number";
+  			if(x>10)     throw "too high";
+  			if(x<5)      throw "too low";
+  			}
+			catch(err){
+  			var y=document.getElementById("mess");
+  			y.innerHTML="Error: " + err + ".";
+  			}
+		}
+		var Tag=document.getElementById("main");
+		var Tagp=Tag.getElementsByTagName("p");
+		document.write('id 为 "main" 的 div 中的第一段文本是：' + Tagp[0].innerHTML+'<br>');
+		document.write('id 为 "main" 的 div 中的第一段文本是：' + Tagp[1].innerHTML);
+		//要获取的元素必须在这个之前
+		//onload要调用的函数
+		function checkCookies(){
+			if (navigator.cookieEnabled==true)
+			{
+				alert("已启用 cookie");
+			}
+			else
+			{
+			alert("未启用 cookie");
+			}
+		}
+		//onchange 要调用的函数
+		function change(){
+			var x=document.getElementById("change");
+			x.value=x.value.toUpperCase();
+		}
+		//创建一个p元素
+		var para=document.createElement("p");//创建一个p标签
+		var node=document.createTextNode("这是创建的新的段落");//创建了一个文本节点
+		para.appendChild(node);//向 <p> 元素追加这个文本节点
+		var div1=document.getElementById("main");
+		div1.appendChild(para);
+		//删除已有的HTML元素
+		var parent=document.getElementById("main_1");//先找到父节点
+		var child=document.getElementById("p5");//找到元素
+		parent.removeChild(child);
+		//另外的方法
+		//var child=document.getElementById("p5");
+		//child.parentNode.removeChild(child);   //parentNode找到父节点
+		//创建对象
+		function Person(firstname,secondname,age){
+			this.firstname=firstname;
+			this.secondname=secondname;
+			this.age=age;
+			this.changeFirst=changeFirst;
+			function changeFirst(name){
+				this.firstname=name;
+			}
+		}
+		person1=new Person("Peter","Jame",18);
+		person1.changeFirst("Amy");
+		document.write("<br />"+person1.firstname+"<br />");
+		alert(person1.firstname);
+		var txt_person="";
+		for(a in person1){	   //for in 应用于非数组元素的遍历上
+			txt_person=txt_person+person1[a];  //显示person1对象中的内容
+		}
+		alert(txt_person);
+		//为字符串添加样式
+		var txt_string="字符串样式";
+		document.write("<p>Big: " + txt_string.big() + "</p>");
+		document.write("<p>Small: " + txt_string.small() + "</p>");
+		document.write("<p>Bold: " + txt_string.bold() + "</p>")
+		document.write("<p>Italic: " + txt_string.italics() + "</p>");
+		document.write("<p>Blink: " + txt_string.blink() + " (does not work in IE)</p>");
+		document.write("<p>Fixed: " + txt_string.fixed() + "</p>");
+		document.write("<p>Strike: " + txt_string.strike() + "</p>");
+		document.write("<p>Fontcolor: " + txt_string.fontcolor("Red") + "</p>");
+		document.write("<p>Fontsize: " + txt_string.fontsize(16) + "</p>");
+		document.write("<p>Lowercase: " + txt_string.toLowerCase() + "</p>");
+		document.write("<p>Uppercase: " + txt_string.toUpperCase() + "</p>");
+		document.write("<p>Subscript: " + txt_string.sub() + "</p>");
+		document.write("<p>Superscript: " + txt_string.sup() + "</p>");
+
+		document.write("<p>Link: " + txt_string.link("http://www.w3school.com.cn") + "</p>")
+		document.write("“符”首次出现的位置是"+txt_string.indexOf("符")+"<br />");//字符中某个字符首次出现的位置
+		document.write("寻找“串”，返回"+txt_string.match("串")+"<br />");
+		document.write("寻找“张”，返回"+txt_string.match("张")+"<br />");
+		document.write(txt_string.replace(/样式/,"添加样式")+"<br />")
+		var mycars = new Array();
+		mycars[0] = "数组成员1";
+		mycars[1] = "数组成员2";
+		mycars[2] = "数组成员3";
+		for (i=0;i<mycars.length;i++)
+		{
+			document.write(mycars[i] + "<br />")
+		}
+		//正则表达式
+		var str = "Every man in the world! Every woman on earth!";
+		var patt = new RegExp("man","g");  //g表示全局
+		var result = patt.test(str); //test找有没有   返回true false
+		document.write("Result: " + result+"<br />");
+		while ((result = patt.exec(str)) != null){
+			document.write(result);
+			document.write("<br />");
+			document.write(patt.lastIndex);
+			document.write("<br />");
+		}
+		patt=/man/g;
+		var str1=str.replace(patt,"person");
+		document.write(str1+"<br />");
+		patt=/(wo)?man/g;
+		patt.compile(patt);
+		str1 =str.replace(patt,"person");
+		document.write(str1);
+	</script>
+	<form action="">
+		<img src="String1.jpg" alt="">
+		<img src="String2.jpg" alt="">
+		<img src="String3.jpg" alt=""><br />
+    	<input type="button" value="要显示的" onclick="hanshuming()">
+    	<input type="button" value="confirm" onclick="confirmyongfa()">
+    	<input type="button" value="prompt" onclick="promptyongfa()">
+    	<input name="open" type="button" value="windowopen" onclick="windowopen()">
+    	<input type="button" value="显示" onclick="xianshi()">
+    	<input type="button" value="隐藏" onclick="yincang()">
+    	<input type="button" value="改变类" onclick="classname()">
+    	<input type="button" value="取消设置" onclick="resets()">
+    	<input type="button" value="有错误" onclick="cuowu()">
+    </form>
+    <p>Please input a number between 5 and 10:</p>
+	<input id="demo" type="text">
+	<button type="button" onclick="mythrow()">Test Input</button>
+	<p id="mess"></p>
+	请输入英文字符：
+	<input type="text" id="change" onchange="change()">
+	<p>当您离开输入字段时，会触发将输入文本转换为大写的函数。</p>
+
+	
+</body>
+</html>
