@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	
+</body>
+<script>
+	let s1 = Symbol()
+	let s2 = Symbol()
+	console.log(s1 === s2)
+	console.log(s1 == s2)
+
+	let target = {
+		id : '1'
+	}
+	let handler = {
+		get: function(target, key, receiver){
+			console.log(`Get: This is id : ${this.id}`);
+			return Reflect.get(target, key, receiver);
+		},
+		set: function(target, key, value, receiver){
+			console.log(`Set: This is id : ${value}`);
+			return Reflect.set(target, key, value, receiver)
+		}
+	}
+	let proxy = new Proxy(target, handler)
+	proxy.id = '2'
+	target
+	console.log(target)
+
+	let map = new Map([['name', 'zfl'],['sex', 'male']])
+	console.log(map.get('name'))
+	console.log(map.get(['name', 'zfl']))   //undefined
+	map.set(['a'], 555)
+	console.log(map.get(['a']))  //表面上是相同，但是内存地址不一样，若为简单类型，则视为相同
+	let k1 = ['a']
+	let k2 = ['b']
+	map.set(k1, 111)
+	map.set(k2, 222)
+	console.log(map.get(k1))
+
+	function* objectEntries(obj){           //多层解析object
+  		let propKeys = Reflect.ownKeys(obj)  //解析出key 返回数组
+	
+		for(let propKey of propKeys){
+			if(typeof obj[propKey] === 'object'){
+				console.log(`${propKey}:{`)
+					yield* objectEntries(obj[propKey])
+				console.log(`}`)
+				// console.log(`${propKey}:{`)
+				// for(let [key, value] of objectEntries(obj[propKey])){
+				// 	console.log(`	${key}: ${value}`)
+				// }
+				// console.log(`}`)
+			}else{
+				yield [propKey, obj[propKey]]	
+			}
+			
+		}
+	}
+	let jane = {
+		'first': 'Jane',
+		'lase': 'Doe',
+		'info': {
+			'id': '1',
+			'name': {
+				'id': '2'
+			}
+		}
+	}
+	for(let [key, value] of objectEntries(jane)){
+		console.log(`${key}: ${value}`)
+	}
+
+	function* F(){
+		yield this.x = 2
+		yield this.y = 3
+	}
+	let obj = {}
+	let f = F.bind(obj)()
+	console.log(obj)
+	console.log(f.next())
+	console.log(f.next())
+	console.log(f.next())
+	console.log(obj)
+
+</script>
+</html>
