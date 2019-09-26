@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/MachineLearning(机器学习实战).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter02/kNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter02/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter02/ConnectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter02/util/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/numpy基础.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/numpy练习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/第一章/1.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter01/1.7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,69 +33,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/ObjectInputStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/NIOBufferDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/NIOFileChannelDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/NIO2PathDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/NIO2FilesDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/BufferedInputStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -93,15 +45,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/java高级/chapter01/BufferedInputStreamDemo.class">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/chapter02/util/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/FileDemo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter02/ConnectionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="363">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,6 +99,15 @@
         <option value="$PROJECT_DIR$/src/chapter01/NIO2PathDemo.java" />
         <option value="$PROJECT_DIR$/src/chapter01/NIO2FilesDemo.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/db/DBUtil.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/ResultSetMetaDataDemo.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/SavepointDemo.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/DBDemo.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/DatabaseMetaDataDemo.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/BatchDemo.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/util/Config.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/ConnectionDemo.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/TransactionDemo.java" />
       </list>
     </option>
   </component>
@@ -146,13 +117,14 @@
     <option name="width" value="1296" />
     <option name="height" value="696" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,12 +141,20 @@
               <item name="java高级" type="b2602c69:ProjectViewProjectNode" />
               <item name="java高级" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java高级" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java高级" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -182,10 +162,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter02" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\root\study\java高级\src\chapter02" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,7 +190,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ConnectionDemo">
+    <configuration name="BatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter02.BatchDemo" />
+      <module name="java高级" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter02.ConnectionDemo" />
+      <module name="java高级" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java高级" />
@@ -233,19 +250,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.NIOBufferDemo" />
-      <module name="java高级" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NIOFileChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter01.NIOFileChannelDemo" />
       <module name="java高级" />
@@ -259,34 +263,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.ObjectInputStreamDemo" />
-      <module name="java高级" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.NIO2FilesDemo" />
-      <item itemvalue="Application.ObjectInputStreamDemo" />
-      <item itemvalue="Application.NIOBufferDemo" />
       <item itemvalue="Application.NIOFileChannelDemo" />
       <item itemvalue="Application.NIO2PathDemo" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ConnectionDemo" />
+      <item itemvalue="Application.BatchDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectionDemo" />
+        <item itemvalue="Application.BatchDemo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.NIO2PathDemo" />
         <item itemvalue="Application.NIOFileChannelDemo" />
-        <item itemvalue="Application.NIOBufferDemo" />
-        <item itemvalue="Application.ObjectInputStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -304,17 +295,17 @@
       <workItem from="1568213584616" duration="787000" />
       <workItem from="1568215272723" duration="178000" />
       <workItem from="1568215600999" duration="1435000" />
+      <workItem from="1569474498162" duration="3710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5512000" />
+    <option name="totallyTimeSpent" value="9222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21481876" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -332,7 +323,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3275488" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -348,18 +339,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/chapter01/Main.java" />
@@ -454,6 +433,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter01/BufferedInputStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java高级/chapter01/BufferedInputStreamDemo.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -464,17 +450,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/BufferedInputStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/ResultSetMetaDataDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/SavepointDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/DBDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/DatabaseMetaDataDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/BatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/util/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/db/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/TransactionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/ConnectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
