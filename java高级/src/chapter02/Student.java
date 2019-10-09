@@ -1,49 +1,49 @@
-package mysql;
+package chapter02;
 
 public class Student {
-	protected String Id;
-	protected String Name;
-	protected String Sex;
-	protected String Age;
+    protected String Id;
+    protected String Name;
+    protected String Sex;
+    protected String Age;
 
-	    public Student(String Name, String Sex, String Age) {
-	  
-	        this.Id = null; //default
-	        this.Name = Name;
-	        this.Sex = Sex;
-	        this.Age = Age;
-	    }
+    public Student(String Name, String Sex, String Age) {
 
-	    public String getId() {
-	        return Id;
-	    }
+        this.Id = null; //default
+        this.Name = Name;
+        this.Sex = Sex;
+        this.Age = Age;
+    }
 
-	    public void setId(String Id) {
-	        this.Id = Id;
-	    }
+    public String getId() {
+        return Id;
+    }
 
-	    public String getName() {
-	        return Name;
-	    }
+    public void setId(String Id) {
+        this.Id = Id;
+    }
 
-	    public void setName(String Name) {
-	        this.Name = Name;
-	    }
+    public String getName() {
+        return Name;
+    }
 
-	    public String getSex() {
-	        return Sex;
-	    }
+    public void setName(String Name) {
+        this.Name = Name;
+    }
 
-	    public void setSex(String Sex) {
-	        this.Sex = Sex;
-	    }
+    public String getSex() {
+        return Sex;
+    }
 
-	    public String getAge() {
-	        return Age;
-	    }
+    public void setSex(String Sex) {
+        this.Sex = Sex;
+    }
 
-	    public void setage(String Age) {
-	        this.Age = Age;
-	    }
+    public String getAge() {
+        return Age;
+    }
+
+    public void setage(String Age) {
+        this.Age = Age;
+    }
 
 }

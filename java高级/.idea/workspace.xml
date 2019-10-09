@@ -2,73 +2,388 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/MachineLearning(机器学习实战).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter02/kNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter02/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter02/ConnectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter02/util/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/numpy基础.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../万门教育/numpy基础/numpy练习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/第一章/1.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter01/1.7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter03/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter03/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter03/trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter02/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03/PricingTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/MachineLearning(机器学习实战).iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/MachineLearning(机器学习实战).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter01/1.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter01/1.7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter02/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter02/kNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter02/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/chapter02/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java高级.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java高级.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/META-INF/java高级.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/META-INF/java高级.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/BufferedInputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/BufferedInputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/FileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/FileDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/FileInputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/FileInputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/FilenameFilterDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/FilenameFilterDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/FilenameFilterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/FilenameFilterDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/InputStreamReaderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/InputStreamReaderDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/NIO2FilesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/NIO2FilesDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/NIO2PathDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/NIO2PathDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/NIOBufferDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/NIOBufferDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/NIOFileChannelDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/NIOFileChannelDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/ObjectInputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/ObjectInputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/ObjectOutputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/ObjectOutputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/WriterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/WriterDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter02/ConnectionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter02/sql/userdetail.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter02/util/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/FileOutputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/FileOutputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/PrintStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/PrintStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/ReaderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/ReaderDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pome.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pome.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/BufferedInputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/BufferedInputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/FileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/FileInputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/FileInputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/FileOutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/FileOutputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/FilenameFilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/FilenameFilterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/InputStreamReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/InputStreamReaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/NIO2FilesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/NIO2FilesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/NIO2PathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/NIO2PathDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/NIOBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/NIOBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/NIOFileChannelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/NIOFileChannelDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/ObjectInputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/ObjectInputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/ObjectOutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/ObjectOutputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/PrintStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/PrintStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/ReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/ReaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter01/WriterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/WriterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter02/Applicaltion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/Applicaltion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter02/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter02/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php/array.php" beforeDir="false" afterPath="$PROJECT_DIR$/../php/array.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php/form/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../php/form/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php/form/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../php/form/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php/form/formProve.php" beforeDir="false" afterPath="$PROJECT_DIR$/../php/form/formProve.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php/moshubianliang.php" beforeDir="false" afterPath="$PROJECT_DIR$/../php/moshubianliang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practicepython/helloworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practicepython/helloworld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practicepython/if.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practicepython/if.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practicepython/variable.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practicepython/variable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practicepython/while.py" beforeDir="false" afterPath="$PROJECT_DIR$/../practicepython/while.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_widget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_widget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_widget.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-frame-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_widget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_dialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_dialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_dialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-hellodialog-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_dialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_widget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_widget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_widget.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-jiaohao-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_widget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_dialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_dialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_widget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_widget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_dialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_dialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_widget.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-signalslot-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_widget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_dialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_dialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_dialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-size-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_dialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_receiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_receiver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_receiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpReceiver-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_receiver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_sender.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_sender.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_sender.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpSender-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_sender.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/.qmake.stash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/Makefile.Release" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_dialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/debug/moc_dialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_dialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/build-udpsocket-Desktop_Qt_5_7_0_MinGW_32bit-Debug/ui_dialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/file/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/file/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/file/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/file/mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/file/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/file/mainwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/file/mainwindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/file/mainwindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/file/untitled.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/file/untitled.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/file/untitled.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/file/untitled.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/frame/frame.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/frame/frame.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/frame/frame.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/frame/frame.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/frame/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/frame/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/frame/widget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/frame/widget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/frame/widget.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/frame/widget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/frame/widget.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/frame/widget.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/hellodialog/dialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/hellodialog/dialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/hellodialog/dialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/hellodialog/dialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/hellodialog/dialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/hellodialog/dialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/hellodialog/hellodialog.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/hellodialog/hellodialog.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/hellodialog/hellodialog.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/hellodialog/hellodialog.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/hellodialog/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/hellodialog/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/quhao/jiaohao.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/quhao/jiaohao.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/quhao/jiaohao.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/quhao/jiaohao.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/quhao/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/quhao/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/quhao/widget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/quhao/widget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/quhao/widget.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/quhao/widget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/quhao/widget.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/quhao/widget.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/dialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/dialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/dialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/dialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/dialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/dialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/dialog.ui.autosave" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/dialog.ui.autosave" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/signalslot.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/signalslot.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/signalslot.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/signalslot.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/widget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/widget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/widget.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/widget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/signalslot/widget.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/signalslot/widget.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/size/dialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/size/dialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/size/dialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/size/dialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/size/dialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/size/dialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/size/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/size/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/size/size.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/size/size.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/size/size.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/size/size.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpReceiver/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpReceiver/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpReceiver/receiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpReceiver/receiver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpReceiver/receiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpReceiver/receiver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpReceiver/receiver.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpReceiver/receiver.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpReceiver/udpReceiver.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpReceiver/udpReceiver.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpReceiver/udpReceiver.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpReceiver/udpReceiver.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpSender/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpSender/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpSender/sender.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpSender/sender.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpSender/sender.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpSender/sender.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpSender/sender.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpSender/sender.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpSender/udpSender.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpSender/udpSender.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpSender/udpSender.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpSender/udpSender.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpsocket/dialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpsocket/dialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpsocket/dialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpsocket/dialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpsocket/dialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpsocket/dialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpsocket/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpsocket/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpsocket/udpsocket.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpsocket/udpsocket.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qtstudy/udpsocket/udpsocket.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../qtstudy/udpsocket/udpsocket.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyEs6/es6-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyEs6/es6-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyEs6/es6-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyEs6/es6-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyEs6/es6-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyEs6/es6-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/Class&amp;Style.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/Class&amp;Style.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/component&amp;directive.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/component&amp;directive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/example_vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/example_vue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/first_vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/first_vue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/form&amp;controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/form&amp;controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/dist/vue.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/dist/vue.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/dist/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/dist/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/dist/vue.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/dist/vue.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/codegen/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/codegen/events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/codegen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/codegen/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/directives/bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/directives/bind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/directives/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/directives/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/error-detector.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/error-detector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/optimizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/optimizer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/entity-decoder.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/entity-decoder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/filter-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/filter-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/html-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/html-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/text-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/compiler/parser/text-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/components/keep-alive.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/components/keep-alive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/assets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/extend.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/extend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/mixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/mixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/use.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/global-api/use.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/lifecycle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/lifecycle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/proxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/render.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/instance/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/dep.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/dep.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/scheduler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/scheduler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/watcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/observer/watcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/debug.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/debug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/lang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/props.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/util/props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/create-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/create-component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/create-element.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/create-element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/modules/directives.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/modules/directives.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/modules/ref.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/modules/ref.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/patch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/patch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/vnode.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/core/vdom/vnode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/entries/web-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/entries/web-compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/entries/web-runtime-with-compiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/entries/web-runtime-with-compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/entries/web-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/entries/web-runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/entries/web-server-renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/entries/web-server-renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/directives/html.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/directives/html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/directives/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/directives/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/directives/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/directives/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/directives/text.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/directives/text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/modules/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/modules/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/modules/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/compiler/modules/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/class-util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/class-util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/components/transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/components/transition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/directives/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/directives/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/directives/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/directives/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/directives/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/directives/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/modules/transition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/node-ops.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/node-ops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/patch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/patch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/transition-util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/runtime/transition-util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/directives/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/directives/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/directives/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/directives/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/attrs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/attrs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/dom-props.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/dom-props.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/server/modules/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/attrs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/attrs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/compat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/compat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/platforms/web/util/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/create-bundle-renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/create-bundle-renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/create-renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/create-renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/render-stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/render-stream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/render.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/run-in-vm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/run-in-vm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/write.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/server/write.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/sfc/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/sfc/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/shared/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/src/shared/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/options.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/options.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/plugin.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/plugin.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/vnode.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/vnode.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/node_modules/vue/types/vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/transition.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/transition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyVue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyVue/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyjs/javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyjs/javascript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyjs/paixu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../studyjs/paixu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyjs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../studyjs/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/IP网络字节互化.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/IP网络字节互化.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/Copy/cp.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/Copy/cp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/IPtoINer/address.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/IPtoINer/address.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/MQQ/tcp/tcprecv.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/MQQ/tcp/tcprecv.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/MQQ/tcp/tcpsend.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/MQQ/tcp/tcpsend.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/MQQ/udp/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/MQQ/udp/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/MQQ/udp/udprecv.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/MQQ/udp/udprecv.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/MQQ/udp/udpsend.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/MQQ/udp/udpsend.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/gethostname.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/gethostname.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/线程/.pthread5.c.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/线程/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/线程/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread2.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread3.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread4.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread5.c" beforeDir="false" afterPath="$PROJECT_DIR$/../studyubuntu/share/线程/pthread5.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Lib/site-packages/setuptools.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/activate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/deactivate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/easy_install-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/pip-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/pip3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/Scripts/pip3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/mnist/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/mnist/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/placeholder/.placeholder.py.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/placeholder/placeholder.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/placeholder/placeholder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/session/exe2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/session/exe2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow/variable/variable.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow/variable/variable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/numpy基础.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/numpy基础.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/numpy练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/numpy练习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Lib/site-packages/setuptools.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/activate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/deactivate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/easy_install-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/pip-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/pip3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/Scripts/pip3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../万门教育/numpy基础/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../万门教育/numpy基础/venv/pyvenv.cfg" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter02/util/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter02/ConnectionDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,98 +395,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/chapter01/Main.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/FileDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/FilenameFilterDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/FileInputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/ReaderDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/WriterDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/BufferedInputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/InputStreamReaderDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/ObjectOutputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/Person.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/ObjectInputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/NIOBufferDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/NIOFileChannelDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/NIO2PathDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter01/NIO2FilesDemo.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/chapter02/db/DBUtil.java" />
-        <option value="$PROJECT_DIR$/src/chapter02/ResultSetMetaDataDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter02/SavepointDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter02/DBDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter02/DatabaseMetaDataDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter02/BatchDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter02/util/Config.java" />
-        <option value="$PROJECT_DIR$/src/chapter02/ConnectionDemo.java" />
-        <option value="$PROJECT_DIR$/src/chapter02/TransactionDemo.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="702" />
-    <option name="y" value="294" />
-    <option name="width" value="1296" />
-    <option name="height" value="696" />
-  </component>
+  <component name="ProjectId" id="1RtrrpE5HDzcdpLsnV2rVOzrLaJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java高级" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java高级" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java高级" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java高级" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java高级" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java高级" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java高级" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java高级" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -190,7 +433,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConnectionDemo">
+  <component name="RunManager" selected="Application.Applicaltion">
+    <configuration name="Applicaltion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter02.Applicaltion" />
+      <module name="java高级" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter02.BatchDemo" />
       <module name="java高级" />
@@ -217,13 +473,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java高级" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NIO2FilesDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter01.NIO2FilesDemo" />
       <module name="java高级" />
@@ -237,12 +486,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIO2PathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.NIO2PathDemo" />
+    <configuration name="PricingTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.PricingTool" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter01.*" />
+          <option name="PATTERN" value="chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,12 +499,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOFileChannelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter01.NIOFileChannelDemo" />
+    <configuration name="VolumeOfCone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.VolumeOfCone" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter01.*" />
+          <option name="PATTERN" value="chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,19 +514,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NIO2FilesDemo" />
-      <item itemvalue="Application.NIOFileChannelDemo" />
-      <item itemvalue="Application.NIO2PathDemo" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.ConnectionDemo" />
       <item itemvalue="Application.BatchDemo" />
+      <item itemvalue="Application.VolumeOfCone" />
+      <item itemvalue="Application.PricingTool" />
+      <item itemvalue="Application.Applicaltion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Applicaltion" />
+        <item itemvalue="Application.PricingTool" />
+        <item itemvalue="Application.VolumeOfCone" />
         <item itemvalue="Application.ConnectionDemo" />
         <item itemvalue="Application.BatchDemo" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NIO2PathDemo" />
-        <item itemvalue="Application.NIOFileChannelDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -296,331 +545,26 @@
       <workItem from="1568215272723" duration="178000" />
       <workItem from="1568215600999" duration="1435000" />
       <workItem from="1569474498162" duration="3710000" />
+      <workItem from="1570497438767" duration="10361000" />
+      <workItem from="1570517322779" duration="285000" />
+      <workItem from="1570617131994" duration="2873000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9222000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3470716" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3275488" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter01/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/chapter01/FilenameFilterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726">
-          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/FileOutputStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-556">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/ReaderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/WriterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/FileInputStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/InputStreamReaderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/ObjectOutputStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/ObjectInputStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/NIOBufferDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/NIOFileChannelDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/NIO2PathDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/NIO2FilesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/BufferedInputStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/java高级/chapter01/BufferedInputStreamDemo.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/FileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/ResultSetMetaDataDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/SavepointDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/DBDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/DatabaseMetaDataDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/BatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/util/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/db/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/TransactionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/ConnectionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

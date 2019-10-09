@@ -1,5 +1,6 @@
 import numpy as np
 import operator
+import os
 
 
 # 创造数据集，为其打标签
@@ -77,3 +78,43 @@ def classifyPerson():
     inArr = np.array([ffMiles, percentTats, iceCream])
     classifierResult = classify0(inArr - minVals, normMat, datingLabels, 3)
     print("You will probably like this person: ", resultList[classifierResult - 1])
+
+
+def img2vector(filename):
+    returnVect = np.zeros((1, 1024))
+    print(returnVect)
+    fr = open(filename)
+    for i in range(32):
+        lineStr = fr.readline()
+        for j in range(32):
+            returnVect[0, 32 * i + j] = int(lineStr[j])
+    return returnVect
+
+
+def handwritingClassTest():
+    hwLabels = []
+    traingFileList = os.listdir('../machinelearninginaction/Ch02/digits/trainingDigits')
+    m = len(traingFileList)
+    traingMat = np.zeros((m, 1024))
+    for i in range(m):
+        fileNameStr = traingFileList[i]
+        print(fileNameStr)
+        fileStr = fileNameStr.split('.')[0]
+        classNumStr = int(fileStr.split('_')[0])
+        hwLabels.append(classNumStr)
+        traingMat[i, :] = img2vector("../machinelearninginaction/Ch02/digits/trainingDigits/" + fileNameStr)
+
+    testFileList = os.listdir('../machinelearninginaction/Ch02/digits/testDigits')
+    errorCount = 0.0
+    mTest = len(testFileList)
+    for i in range(mTest):
+        fileNameStr = testFileList[i]
+        fileStr = fileNameStr.split('.')[0]
+        classNumStr = int(fileStr.split('_')[0])
+        vectorUnderTest = img2vector("../machinelearninginaction/Ch02/digits/testDigits/" + fileNameStr)
+        classifierResult = classify0(vectorUnderTest, traingMat, hwLabels, 3)
+        print("the classifier came back with:%d, the real answer is: %d" % (classifierResult, classNumStr))
+        if(classifierResult != classNumStr):
+            errorCount += 1.0
+    print("\nthe total number of errors is:%d" % errorCount)
+    print("\nthe total number of errors rate is:%f" % (errorCount/float(mTest)))
