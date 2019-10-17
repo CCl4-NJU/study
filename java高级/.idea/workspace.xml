@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter04/AirplaneSeatReservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter03/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ImageIconDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ImageIconDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JLabelDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JLabelDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/AirplaneSeatReservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/AirplaneSeatReservation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter03/ImageIconDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/ImageIconDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter03/JLabelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/JLabelDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter04/AirplaneSeatReservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/AirplaneSeatReservation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,22 +88,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AirplaneSeatReservation">
-    <configuration name="AirplaneSeatReservation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter04.AirplaneSeatReservation" />
-      <module name="java高级" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImageIconDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter03.ImageIconDemo" />
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="JComboBoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.JComboBoxDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MouseEventAdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter03.MouseEventAdapterDemo" />
+    <configuration name="JLabelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.JLabelDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +115,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MouseEventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter03.MouseEventDemo" />
+    <configuration name="JListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.JListDemo" />
+      <module name="java高级" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.Login" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
@@ -148,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolumeOfCones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter04.VolumeOfCones" />
+    <configuration name="RadioCheckDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.RadioCheckDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter04.*" />
+          <option name="PATTERN" value="chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +169,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NIO2FilesDemo" />
-      <item itemvalue="Application.MouseEventDemo" />
-      <item itemvalue="Application.MouseEventAdapterDemo" />
-      <item itemvalue="Application.ImageIconDemo" />
-      <item itemvalue="Application.VolumeOfCones" />
-      <item itemvalue="Application.AirplaneSeatReservation" />
+      <item itemvalue="Application.JLabelDemo" />
+      <item itemvalue="Application.JComboBoxDemo" />
+      <item itemvalue="Application.JListDemo" />
+      <item itemvalue="Application.RadioCheckDemo" />
+      <item itemvalue="Application.Login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AirplaneSeatReservation" />
-        <item itemvalue="Application.VolumeOfCones" />
-        <item itemvalue="Application.ImageIconDemo" />
-        <item itemvalue="Application.MouseEventAdapterDemo" />
-        <item itemvalue="Application.MouseEventDemo" />
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.RadioCheckDemo" />
+        <item itemvalue="Application.JListDemo" />
+        <item itemvalue="Application.JComboBoxDemo" />
+        <item itemvalue="Application.JLabelDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +207,8 @@
       <workItem from="1570701881968" duration="2269000" />
       <workItem from="1570763773428" duration="1587000" />
       <workItem from="1570869793543" duration="5046000" />
+      <workItem from="1571206227556" duration="600000" />
+      <workItem from="1571296189924" duration="2570000" />
     </task>
     <servers />
   </component>

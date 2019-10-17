@@ -126,9 +126,9 @@ public class AirplaneSeatReservation {
         System.out.println("Here's your receipt:");
         System.out.println("~~~~~~~~~~~~~~~~~~~~");
         System.out.printf("Subtotal: $%.2f\n",total);
-        System.out.printf("Taxes: $%.2f\n",total);
+        System.out.printf("Taxes: $%.2f\n",total/(1+0.09)*0.09); //航空旅客运输进项税额=（票价+燃油附加费）÷(1+9%)×9%
         System.out.println("====================");
-        System.out.printf("Total: $%.2f\n",total);
+        System.out.printf("Total: $%.2f\n",total + total/(1+0.09)*0.09);
         System.out.println("~~~~~~~~~~~~~~~~~~~~");
     }
 }

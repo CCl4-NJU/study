@@ -22,9 +22,9 @@ public class JLabelDemo extends JFrame {
 		// 实例化一个标签对象，显示文字
 		lblTxt = new JLabel("这是一个文本标签");
 		// 实例化一个标签对象，显示图标
-		lblImg = new JLabel(new ImageIcon("images\\logo.png"));
+		lblImg = new JLabel(new ImageIcon("src/chapter03/images/logo.png"));
 		// 实例化一个标签对象，显示文本和标签
-		lblTxtImg = new JLabel("商标", new ImageIcon("images\\logo.png"),
+		lblTxtImg = new JLabel("商标", new ImageIcon("src/chapter03/images/logo.png"),
 				SwingConstants.CENTER);
 
 		// 将按钮添加到面板中

@@ -1,6 +1,7 @@
 package chapter03;
 
 import java.awt.Graphics;
+import java.io.File;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -9,8 +10,11 @@ public class ImageIconDemo extends JFrame {
     public ImageIconDemo() {
         super("ImageIcon图标");
 
+//        File file = new File(".");
+//        System.out.println(file.getAbsolutePath());
+//        System.out.println(file.getAbsolutePath() + "/src/chapter03/images/books.jpg");
         //创建ImageIcon图标
-        ImageIcon qstIcon = new ImageIcon("/src/chapter03/chapter03/images/qst.png");
+        ImageIcon qstIcon = new ImageIcon( "src/chapter03/images/books.jpg");
 
         //设置窗体的Icon
         this.setIconImage(qstIcon.getImage());
@@ -26,8 +30,9 @@ public class ImageIconDemo extends JFrame {
     }
 
     public void paint(Graphics g) {
+//        File file = new File(".");
         //创建ImageIcon图标
-        ImageIcon booksIcon = new ImageIcon("images\\books.jpg");
+        ImageIcon booksIcon = new ImageIcon("src/chapter03/images/books.jpg");
         //在窗体中画图标
         g.drawImage(booksIcon.getImage(), 0, 20, this);
         //显示图标的宽度和高度
