@@ -2,22 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter04/JColorChooserDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/JDialogDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/JFileChooserDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/JMenuDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/JOptionPaneDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/JPopupMenuDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/JTableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/JToolBarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/JTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/BankAccountSynLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/BankAccountSynMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/CallableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/IllegalThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/JoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/LambdaCallableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/MainThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonSwingTimerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonTimerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/MultiThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/NoSynBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/PriorityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/RunnableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/SynBlockBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/SynLockBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/SynMethodBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/ThreadLifeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter05/WaitNotifyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/VolumeOfCones.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/AirplaneSeatReservation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter04/AirplaneSeatReservation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter04/VolumeOfCones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ImageIconDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ImageIconDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter03/ImageIconDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/ImageIconDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter03/JButtonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/JButtonDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter05" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,14 +88,15 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chapter05" />
       <recent name="$PROJECT_DIR$/src/chapter04" />
       <recent name="$PROJECT_DIR$/src/chapter03" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="D:\root\study\java高级\src\chapter02" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,13 +111,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JTreeDemo">
-    <configuration name="JMenuDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter04.JMenuDemo" />
+  <component name="RunManager" selected="Application.JListDemo">
+    <configuration name="ImageIconDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.ImageIconDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter04.*" />
+          <option name="PATTERN" value="chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JPopupMenuDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter04.JPopupMenuDemo" />
+    <configuration name="JButtonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.JButtonDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter04.*" />
+          <option name="PATTERN" value="chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter04.JTableDemo" />
+    <configuration name="JComboBoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.JComboBoxDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter04.*" />
+          <option name="PATTERN" value="chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JToolBarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter04.JToolBarDemo" />
+    <configuration name="JListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.JListDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter04.*" />
+          <option name="PATTERN" value="chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter04.JTreeDemo" />
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter03.Login" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter04.*" />
+          <option name="PATTERN" value="chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,19 +192,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NIO2FilesDemo" />
-      <item itemvalue="Application.JMenuDemo" />
-      <item itemvalue="Application.JPopupMenuDemo" />
-      <item itemvalue="Application.JToolBarDemo" />
-      <item itemvalue="Application.JTableDemo" />
-      <item itemvalue="Application.JTreeDemo" />
+      <item itemvalue="Application.ImageIconDemo" />
+      <item itemvalue="Application.Login" />
+      <item itemvalue="Application.JButtonDemo" />
+      <item itemvalue="Application.JComboBoxDemo" />
+      <item itemvalue="Application.JListDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JTreeDemo" />
-        <item itemvalue="Application.JTableDemo" />
-        <item itemvalue="Application.JToolBarDemo" />
-        <item itemvalue="Application.JPopupMenuDemo" />
-        <item itemvalue="Application.JMenuDemo" />
+        <item itemvalue="Application.JListDemo" />
+        <item itemvalue="Application.JComboBoxDemo" />
+        <item itemvalue="Application.JButtonDemo" />
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.ImageIconDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +233,11 @@
       <workItem from="1571206227556" duration="600000" />
       <workItem from="1571296189924" duration="2732000" />
       <workItem from="1571454748236" duration="29000" />
-      <workItem from="1571815487192" duration="3805000" />
+      <workItem from="1571815487192" duration="4152000" />
+      <workItem from="1571820682990" duration="1000" />
+      <workItem from="1571914906732" duration="2396000" />
+      <workItem from="1571985522652" duration="23000" />
+      <workItem from="1571992735890" duration="245000" />
     </task>
     <servers />
   </component>

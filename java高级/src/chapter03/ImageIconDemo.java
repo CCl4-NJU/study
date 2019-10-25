@@ -34,7 +34,7 @@ public class ImageIconDemo extends JFrame {
         //创建ImageIcon图标
         ImageIcon booksIcon = new ImageIcon("src/chapter03/images/books.jpg");
         //在窗体中画图标
-        g.drawImage(booksIcon.getImage(), 0, 20, this);
+        g.drawImage(booksIcon.getImage(), 20, 20, this);
         //显示图标的宽度和高度
         g.drawString("宽:" + booksIcon.getIconWidth() + "px，高:" + booksIcon.getIconHeight() + "px", 20, 210);
     }

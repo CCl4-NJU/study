@@ -25,7 +25,7 @@ public class JButtonDemo extends JFrame {
 		// 实例化一个按钮对象，该按钮上显示文字
 		btnTxt = new JButton("您点击了0次按钮！");
 		// 实例化一个按钮对象，该按钮上显示图标
-		btnImg = new JButton(new ImageIcon("images\\configure.png"));
+		btnImg = new JButton(new ImageIcon("src/chapter03/images/configure.png"));
 
 		// 注册监听
 		btnTxt.addActionListener(new ActionListener() {
@@ -43,12 +43,12 @@ public class JButtonDemo extends JFrame {
 				// 获取鼠标按键，判断是否是左键
 				if (e.getButton() == MouseEvent.BUTTON1) {
 					// 改变按钮的Icon
-					btnImg.setIcon(new ImageIcon("images\\download.png"));
+					btnImg.setIcon(new ImageIcon("src/chapter03/images/download.png"));
 				}
 				// 获取鼠标按键，判断是否是右键
 				if (e.getButton() == MouseEvent.BUTTON3) {
 					// 改变按钮的Icon
-					btnImg.setIcon(new ImageIcon("images\\configure.png"));
+					btnImg.setIcon(new ImageIcon("src/chapter03/images/configure.png"));
 				}
 			}
 		});
