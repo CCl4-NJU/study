@@ -2,36 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter05/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/BankAccountSynLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/BankAccountSynMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/CallableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/IllegalThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/JoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/LambdaCallableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/MainThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonSwingTimerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonTimerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/MultiThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/NoSynBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/PriorityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/RunnableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/SynBlockBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/SynLockBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/SynMethodBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/ThreadLifeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter05/WaitNotifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter06/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter06/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter06/ClientSocketDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter06/InetAddressDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter06/ServerSocketDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter06/URLConnectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter06/URLDecoderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter06/URLDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ImageIconDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ImageIconDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter03/ImageIconDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/ImageIconDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter03/JButtonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/JButtonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/BankAccountSynLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/BankAccountSynLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/BankAccountSynMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/BankAccountSynMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/CallableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/CallableFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/IllegalThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/IllegalThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/JoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/JoinDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/LambdaCallableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/LambdaCallableFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/MainThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/MainThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/MoveButtonSwingTimerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonSwingTimerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/MoveButtonThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/MoveButtonTimerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonTimerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/MultiThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/MultiThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/NoSynBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/NoSynBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/PriorityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/PriorityDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/RunnableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/RunnableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/SynBlockBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/SynBlockBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/SynLockBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/SynLockBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/SynMethodBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/SynMethodBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/ThreadLifeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/ThreadLifeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/WaitNotifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/WaitNotifyDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter05" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter06" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,11 +93,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chapter06" />
       <recent name="$PROJECT_DIR$/src/chapter05" />
       <recent name="$PROJECT_DIR$/src/chapter04" />
       <recent name="$PROJECT_DIR$/src/chapter03" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="D:\root\study\java高级\src\chapter02" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,7 +238,7 @@
       <workItem from="1571820682990" duration="1000" />
       <workItem from="1571914906732" duration="2396000" />
       <workItem from="1571985522652" duration="23000" />
-      <workItem from="1571992735890" duration="245000" />
+      <workItem from="1571992735890" duration="1062000" />
     </task>
     <servers />
   </component>

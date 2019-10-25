@@ -2,53 +2,53 @@ package chapter05;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-//�����ʻ�
-//ͬ�����ķ�ʽ
+//银行帐户
+//同步锁的方式
 public class BankAccountSynLock {
-	// �����˺�
+	// 银行账号
 	private String bankNo;
-	// �������
+	// 银行余额
 	private double balance;
 
-	// ����������
+	// 定义锁对象
 	private final ReentrantLock lock = new ReentrantLock();
 
-	// ���췽��
+	// 构造方法
 	public BankAccountSynLock(String bankNo, double balance) {
 		this.bankNo = bankNo;
 		this.balance = balance;
 	}
 
-	// ��ȡǮ����
+	// 存取钱操作
 	public void access(double money) {
-		// ����
+		// 加锁
 		lock.lock();
 		try {
-			// ��������Ľ��money<0,�����ȡǮ����,ͬʱ�ж��˻�����Ƿ����ȡǮ���
+			// 如果操作的金额money<0,则代表取钱操作,同时判断账户金额是否低于取钱金额
 			if (money < 0 && balance < -money) {
 				System.out.println(Thread.currentThread().getName()
-						+ "����ʧ�ܣ����㣡");
-				// ����
+						+ "操作失败，余额不足！");
+				// 返回
 				return;
 			} else {
-				// ���˻������в���
+				// 对账户金额进行操作
 				balance += money;
 				System.out.println(Thread.currentThread().getName()
-						+ "�����ɹ���Ŀǰ�˻����Ϊ��" + balance);
+						+ "操作成功，目前账户余额为：" + balance);
 				try {
-					// ����1����
+					// 休眠1毫秒
 					Thread.sleep(1);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
 			}
 		} finally {
-			// �ͷ���
+			// 释放锁
 			lock.unlock();
 		}
 	}
 
-	// getter/setter����
+	// getter/setter方法
 	public String getBankNo() {
 		return bankNo;
 	}

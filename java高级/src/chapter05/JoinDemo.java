@@ -16,24 +16,24 @@ public class JoinDemo {
 
 	public static void main(String[] args) {
 
-		//�������߳�t1
-		JoinThread t1 = new JoinThread("��Join�����߳�");
-		// ����t1���߳�
+		//创建子线程t1
+		JoinThread t1 = new JoinThread("被Join的子线程");
+		// 启动t1子线程
 		t1.start();
-		
+
 		try {
-			// �ȴ�t1���߳�ִ�����
+			// 等待t1子线程执行完毕
 			t1.join();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 
-		// ������߳���
+		// 输出主线程名
 		System.out.println(Thread.currentThread().getName());
 
-		// t1���߳��Ѿ�����,isAlive()Ϊfalse
-		System.out.println("���߳�����״̬[isAlive: " + t1.isAlive() + "]");
-		// ��ͼ�ٴ�����t1���̣߳���ʱt1���߳��Ѿ��������ٴ��������׳�IllegalThreadStateException
+		// t1子线程已经死亡,isAlive()为false
+		System.out.println("子线程死亡状态[isAlive: " + t1.isAlive() + "]");
+		// 试图再次启动t1子线程，此时t1子线程已经死亡，再次启动将抛出IllegalThreadStateException
 		t1.start();
 	}
 

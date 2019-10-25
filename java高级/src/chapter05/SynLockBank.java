@@ -1,10 +1,10 @@
 package chapter05;
 
-//ʹ��ͬ�����ķ�ʽ
+//使用同步锁的方式
 public class SynLockBank extends Thread {
-	// �����˻�
+	// 银行账户
 	private BankAccountSynLock account;
-	// ����������Ϊ��Ǯ������ΪȡǮ
+	// 操作金额，正数为存钱，负数为取钱
 	private double money;
 
 	public SynLockBank(String name, BankAccountSynLock account, double money) {
@@ -13,30 +13,30 @@ public class SynLockBank extends Thread {
 		this.money = money;
 	}
 
-	// �߳�����
+	// 线程任务
 	public void run() {
-		// ����account�����access()����
+		// 调用account对象的access()方法
 		this.account.access(money);
 	}
 
 	public static void main(String[] args) {
-		// ����һ�������˻�ʵ��
+		// 创建一个银行账户实例
 		BankAccountSynLock myAccount = new BankAccountSynLock("60001002", 5000);
-		// ��������̣߳����˻����д�ȡǮ����
+		// 创建多个线程，对账户进行存取钱操作
 		SynLockBank t1 = new SynLockBank("T001", myAccount, -3000);
 		SynLockBank t2 = new SynLockBank("T002", myAccount, -3000);
 		SynLockBank t3 = new SynLockBank("T003", myAccount, 1000);
 		SynLockBank t4 = new SynLockBank("T004", myAccount, -2000);
 		SynLockBank t5 = new SynLockBank("T005", myAccount, 2000);
 
-		// �����߳�
+		// 启动线程
 		t1.start();
 		t2.start();
 		t3.start();
 		t4.start();
 		t5.start();
 
-		// �ȴ��������߳����
+		// 等待所有子线程完成
 		try {
 			t1.join();
 			t2.join();
@@ -46,8 +46,8 @@ public class SynLockBank extends Thread {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		// ����˻���Ϣ
-		System.out.println("�˺ţ�" + myAccount.getBankNo() + ", ��"
+		// 输出账户信息
+		System.out.println("账号：" + myAccount.getBankNo() + ", 余额："
 				+ myAccount.getBalance());
 	}
 

@@ -4,17 +4,17 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
-//1. ����Callable�ӿڵ�ʵ����
+//1. 创建Callable接口的实现类
 class Task implements Callable<Integer> {
 
-	// ʵ��call()��������Ϊ�߳�ִ����
+	// 实现call()方法，作为线程执行体
 	public Integer call() throws Exception {
 
 		int i = 0;
 		for (; i < 100; i++) {
 			System.out.println(Thread.currentThread().getName() + " : " + i);
 		}
-		// call()���������з���ֵ
+		// call()方法可以有返回值
 		return i;
 	}
 
@@ -24,24 +24,24 @@ public class CallableFutureDemo {
 
 	public static void main(String[] args) {
 
-		// 2.ʹ��FutureTask���װCallableʵ�����ʵ��
+		// 2.使用FutureTask类包装Callable实现类的实例
 		FutureTask<Integer> task = new FutureTask<Integer>(new Task());
 
-		// 3.�����߳�,ʹ��FutureTask����task��ΪThread�����targer,������start()���������߳�
-		new Thread(task, "���߳�").start();
+		// 3.创建线程,使用FutureTask对象task作为Thread对象的targer,并调用start()方法启动线程
+		new Thread(task, "子线程").start();
 
-		// 4.����FutrueTask����task��get()������ȡ���߳�ִ�н�����ķ���ֵ
+		// 4.调用FutrueTask对象task的get()方法获取子线程执行结束后的返回值
 		try {
-			System.out.println("���̷߳���ֵ��" + task.get());
+			System.out.println("子线程返回值：" + task.get());
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} catch (ExecutionException e) {
 			e.printStackTrace();
 		}
 
-		// ���߳�����
+		// 主线程任务
 		for (int i = 1000; i < 1100; i++) {
-			// ʹ��Thread.currentThread().getName()��ȡ���߳�����
+			// 使用Thread.currentThread().getName()获取主线程名字
 			System.out.println(Thread.currentThread().getName() + " : " + i);
 		}
 

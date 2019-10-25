@@ -8,8 +8,8 @@ public class LambdaCallableFutureDemo {
 
 	public static void main(String[] args) {
 
-		//1.ʹ��Lambda���ʽ����Callable<Integer>����
-		// 2.ʹ��FutureTask���װCallable����
+		//1.使用Lambda表达式创建Callable<Integer>对象
+		// 2.使用FutureTask类包装Callable对象
 		FutureTask<Integer> task = new FutureTask<Integer>(
 				(Callable<Integer>) () -> {
 					int i = 0;
@@ -17,25 +17,25 @@ public class LambdaCallableFutureDemo {
 						System.out.println(Thread.currentThread().getName()
 								+ " : " + i);
 					}
-					// call()���������з���ֵ
+					// call()方法可以有返回值
 					return i;
 				});
 
-		// 3.�����߳�,ʹ��FutureTask����task��ΪThread�����targer,������start()���������߳�
-		new Thread(task, "���߳�").start();
+		// 3.创建线程,使用FutureTask对象task作为Thread对象的targer,并调用start()方法启动线程
+		new Thread(task, "子线程").start();
 
-		// 4.����FutrueTask����task��get()������ȡ���߳�ִ�н�����ķ���ֵ
+		// 4.调用FutrueTask对象task的get()方法获取子线程执行结束后的返回值
 		try {
-			System.out.println("���̷߳���ֵ��" + task.get());
+			System.out.println("子线程返回值：" + task.get());
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} catch (ExecutionException e) {
 			e.printStackTrace();
 		}
 
-		// ���߳�����
+		// 主线程任务
 		for (int i = 1000; i < 1100; i++) {
-			// ʹ��Thread.currentThread().getName()��ȡ���߳�����
+			// 使用Thread.currentThread().getName()获取主线程名字
 			System.out.println(Thread.currentThread().getName() + " : " + i);
 		}
 

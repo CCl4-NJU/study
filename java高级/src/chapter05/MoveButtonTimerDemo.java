@@ -7,22 +7,22 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-//ʹ��java.util.Timer��ɰ�ť�ƶ�
+//使用java.util.Timer完成按钮移动
 public class MoveButtonTimerDemo extends JFrame {
 	JPanel p;
 	JButton btnMove;
 
-	// ����һ��Timer
+	// 声明一个Timer
 	Timer t;
 
-	// ��ť�ƶ�����
+	// 按钮移动距离
 	int movex = 5;
 	int movey = 5;
 
 	public MoveButtonTimerDemo() {
-		super("��ť�ƶ���Timer��ʽ��");
+		super("按钮移动（Timer方式）");
 		p = new JPanel(null);
-		btnMove = new JButton("�ƶ�");
+		btnMove = new JButton("移动");
 		btnMove.setBounds(0, 100, 80, 25);
 
 		p.add(btnMove);
@@ -30,47 +30,47 @@ public class MoveButtonTimerDemo extends JFrame {
 		this.setSize(400, 300);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		// 2. ʵ����Timer����
+		// 2. 实例化Timer对象
 		t = new Timer();
 
-		// 3.����schedule()������ִ������
+		// 3.调用schedule()方法，执行任务
 		t.schedule(new ButtonMoveTask(), 0, 100);
 	}
 
-	// 1. ����һ���ڲ��࣬�̳�TimerTask
+	// 1. 定义一个内部类，继承TimerTask
 	class ButtonMoveTask extends TimerTask {
-		// ���񷽷�
+		// 任务方法
 		public void run() {
-			// ��ȡ��ťx������,������movex
+			// 获取按钮x轴坐标,并增加movex
 			int x = btnMove.getX() + movex;
-			// ��ȡ��ťy������,������movey
+			// 获取按钮y轴坐标,并增加movey
 			int y = btnMove.getY() + movey;
 			if (x <= 0) {
-				// ��Сֵ
+				// 最小值
 				x = 0;
-				// ������
+				// 换方向
 				movex = -movex;
 			} else if (x >= MoveButtonTimerDemo.this.getWidth()
 					- btnMove.getWidth()) {
-				// ���ֵ,���ڵĿ��-��ť�Ŀ��
+				// 最大值,窗口的宽度-按钮的宽度
 				x = MoveButtonTimerDemo.this.getWidth() - btnMove.getWidth();
-				// ������
+				// 换方向
 				movex = -movex;
 			}
 			if (y <= 0) {
-				// ��Сֵ
+				// 最小值
 				y = 0;
-				// ������
+				// 换方向
 				movey = -movey;
 			} else if (y >= MoveButtonTimerDemo.this.getHeight() - 30
 					- btnMove.getHeight()) {
-				// ���ֵ,���ڵĸ߶�-�������ĸ߶�-��ť�ĸ߶�
+				// 最大值,窗口的高度-标题栏的高度-按钮的高度
 				y = MoveButtonTimerDemo.this.getHeight() - 30
 						- btnMove.getHeight();
-				// ������
+				// 换方向
 				movey = -movey;
 			}
-			// ���ð�ť����Ϊ�µ�����
+			// 设置按钮坐标为新的坐标
 			btnMove.setLocation(x, y);
 		}
 	}
