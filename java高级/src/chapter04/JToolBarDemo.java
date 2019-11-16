@@ -17,6 +17,7 @@ public class JToolBarDemo extends JFrame {
 	public JToolBarDemo() {
 		super("JToolBar工具栏");
 
+
 		p = new JPanel();
 
 		// 创建工具栏

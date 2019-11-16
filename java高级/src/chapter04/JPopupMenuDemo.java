@@ -3,16 +3,14 @@ package chapter04;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import javax.swing.JFrame;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
+import javax.swing.*;
 
 public class JPopupMenuDemo extends JFrame {
 	private JPanel p;
 	// 声明弹出菜单
 	private JPopupMenu popMenu;
 	// 声明菜单选项
+	private JMenu newMenu = new JMenu("new");
 	private JMenuItem miUndo, miCopy, miPost, miCut;
 
 	public JPopupMenuDemo() {
@@ -28,7 +26,8 @@ public class JPopupMenuDemo extends JFrame {
 		miCut = new JMenuItem("Cut");
 
 		// 将菜单选项添加到菜单中
-		popMenu.add(miUndo);
+		popMenu.add(newMenu);
+		newMenu.add(miUndo);
 		popMenu.addSeparator();
 		popMenu.add(miCopy);
 		popMenu.add(miPost);

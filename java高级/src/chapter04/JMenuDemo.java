@@ -5,6 +5,10 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
+import javax.swing.event.MenuKeyEvent;
+import javax.swing.event.MenuKeyListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class JMenuDemo extends JFrame {
 	private JPanel p;
@@ -54,6 +58,13 @@ public class JMenuDemo extends JFrame {
 		menuNew.add(miC);
 		menuNew.add(miJava);
 		menuNew.add(miOther);
+		miSave.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("ddd");
+			}
+		});
+
 
 		// 将面板添加到窗体
 		this.add(p);

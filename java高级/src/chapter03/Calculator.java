@@ -113,7 +113,7 @@ public class Calculator extends JFrame {
 			// ÇÃ»÷µÄ¼üÅÌÊÇÊı×Ö
 			if (key == '0' || key == '1' || key == '2' || key == '3'
 					|| key == '4' || key == '5' || key == '6' || key == '7'
-					|| key == '8' || key == '9' || key == '9') {
+					|| key == '8' || key == '9') {
 				if (start) {
 					txtResult.setText("");
 					start = false;

@@ -2,8 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter04practice/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter04practice/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter07/Pop1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter07/Pop2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter07/Pop3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/Balloon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/PerunaPop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/BufferedInputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/BufferedInputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/FileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/FileDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/FileInputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/FileInputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/FilenameFilterDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/FilenameFilterDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/FilenameFilterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/FilenameFilterDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/InputStreamReaderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/InputStreamReaderDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/NIO2FilesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/NIO2FilesDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/NIO2PathDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/NIO2PathDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/NIOBufferDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/NIOBufferDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/NIOFileChannelDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/NIOFileChannelDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/ObjectInputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/ObjectInputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/ObjectOutputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/ObjectOutputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter01/WriterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter01/WriterDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter02/Applicaltion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter02/Applicaltion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter02/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter02/DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter02/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter02/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/BorderLayoutDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/BorderLayoutDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/BoxLayoutDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/BoxLayoutDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/Calculator$ButtonAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/Calculator$ButtonAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/Calculator$KeyAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/Calculator$KeyAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/CardLayoutDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/CardLayoutDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColor$ButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColor$ButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColorAnonymous$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColorAnonymous$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColorAnonymous$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColorAnonymous$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColorAnonymous$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColorAnonymous$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColorAnonymous.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ChangeColorAnonymous.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/FlowLayoutDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/FlowLayoutDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/GridLayoutDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/GridLayoutDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/ImageIconDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/ImageIconDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JButtonDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JComboBoxDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JComboBoxDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JComboBoxDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JComboBoxDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JFrameDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JFrameDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JLabelDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JLabelDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JListDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JListDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JListDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JListDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/JPanelDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/JPanelDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/KeyEventDemo$MyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/KeyEventDemo$MyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/KeyEventDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/KeyEventDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventAdapterDemo$PaintListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventAdapterDemo$PaintListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventAdapterDemo$ResetListenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventAdapterDemo$ResetListenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventAdapterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventAdapterDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventDemo$PaintListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventDemo$PaintListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventDemo$ResetListenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventDemo$ResetListenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/MouseEventDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/NULLLayoutDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/NULLLayoutDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/RadioCheckDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/RadioCheckDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/TextComponentDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/TextComponentDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/TextComponentDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/TextComponentDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter03/TextComponentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter03/TextComponentDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JColorChooserDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JColorChooserDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JColorChooserDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JColorChooserDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JDialogDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JDialogDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JDialogDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JDialogDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JDialogDemo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JDialogDemo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JDialogDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JDialogDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JFileChooserDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JFileChooserDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JFileChooserDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JFileChooserDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JFileChooserDemo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JFileChooserDemo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JFileChooserDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JFileChooserDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JMenuDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JMenuDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JOptionPaneDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JPopupMenuDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JPopupMenuDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JPopupMenuDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JPopupMenuDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JTableDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JTableDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JTableDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JTableDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JTableDemo$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JTableDemo$Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JTableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JTableDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JToolBarDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JToolBarDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JTreeDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JTreeDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/JTreeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/JTreeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/MyDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/MyDialog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04/MyDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04/MyDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/FileOutputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/FileOutputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/PrintStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/PrintStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/ReaderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter01/ReaderDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter03/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter04/JDialogDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/JDialogDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter04/JFileChooserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/JFileChooserDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter04/JMenuDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/JMenuDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter04/JOptionPaneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/JOptionPaneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter04/JPopupMenuDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/JPopupMenuDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter04/JToolBarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/JToolBarDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,29 +154,33 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter06" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter04practice" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chapter04practice" />
       <recent name="$PROJECT_DIR$/src/chapter06" />
       <recent name="$PROJECT_DIR$/src/chapter05" />
       <recent name="$PROJECT_DIR$/src/chapter04" />
       <recent name="$PROJECT_DIR$/src/chapter03" />
-      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter04practice" />
+      <recent name="chapter07" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -83,13 +195,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JListDemo">
-    <configuration name="ImageIconDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter03.ImageIconDemo" />
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="JOptionPaneDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter04.JOptionPaneDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter03.*" />
+          <option name="PATTERN" value="chapter04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JButtonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter03.JButtonDemo" />
+    <configuration name="JTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter04.JTableDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter03.*" />
+          <option name="PATTERN" value="chapter04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JComboBoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter03.JComboBoxDemo" />
+    <configuration name="JTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter04.JTreeDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter03.*" />
+          <option name="PATTERN" value="chapter04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter03.JListDemo" />
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter08.Launcher" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter03.*" />
+          <option name="PATTERN" value="chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +249,11 @@
       </method>
     </configuration>
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter03.Login" />
+      <option name="MAIN_CLASS_NAME" value="chapter04practice.Login" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter03.*" />
+          <option name="PATTERN" value="chapter04practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +276,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NIO2FilesDemo" />
-      <item itemvalue="Application.ImageIconDemo" />
+      <item itemvalue="Application.Launcher" />
+      <item itemvalue="Application.JTableDemo" />
+      <item itemvalue="Application.JOptionPaneDemo" />
+      <item itemvalue="Application.JTreeDemo" />
       <item itemvalue="Application.Login" />
-      <item itemvalue="Application.JButtonDemo" />
-      <item itemvalue="Application.JComboBoxDemo" />
-      <item itemvalue="Application.JListDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JListDemo" />
-        <item itemvalue="Application.JComboBoxDemo" />
-        <item itemvalue="Application.JButtonDemo" />
         <item itemvalue="Application.Login" />
-        <item itemvalue="Application.ImageIconDemo" />
+        <item itemvalue="Application.JTreeDemo" />
+        <item itemvalue="Application.JOptionPaneDemo" />
+        <item itemvalue="Application.JTableDemo" />
+        <item itemvalue="Application.Launcher" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +323,17 @@
       <workItem from="1571985522652" duration="23000" />
       <workItem from="1571992735890" duration="1319000" />
       <workItem from="1572059124539" duration="44000" />
+      <workItem from="1572402731516" duration="8916000" />
+      <workItem from="1572504384843" duration="2237000" />
+      <workItem from="1572515440261" duration="6380000" />
+      <workItem from="1572588493555" duration="76000" />
+      <workItem from="1572957231600" duration="520000" />
+      <workItem from="1573120757665" duration="19000" />
+      <workItem from="1573120792967" duration="7613000" />
+      <workItem from="1573525308967" duration="8290000" />
+      <workItem from="1573654410090" duration="927000" />
+      <workItem from="1573725588571" duration="6399000" />
+      <workItem from="1573886729499" duration="4889000" />
     </task>
     <servers />
   </component>

@@ -22,7 +22,7 @@ public class JDialogDemo extends JFrame {
     MyDialog myDialog;
 
     public JDialogDemo() {
-        super("测试对话框");
+        super("JDialogDemo");
 
         p = new JPanel();
         btnMod = new JButton("模式对话框");

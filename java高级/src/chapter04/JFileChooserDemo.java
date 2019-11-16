@@ -21,13 +21,13 @@ public class JFileChooserDemo extends JFrame {
     private JButton btnOpen, btnSave, btnClear;
 
     public JFileChooserDemo() {
-        super("JFileChooser文件对话框");
+        super("JFileChooserDemo");
 
         p = new JPanel();
 
-        btnOpen = new JButton("打开");
-        btnSave = new JButton("保存");
-        btnClear = new JButton("清空");
+        btnOpen = new JButton("open");
+        btnSave = new JButton("save");
+        btnClear = new JButton("clean");
 
         txtContent = new JTextArea(20, 10);
         // 创建加载文本域的滚动面板

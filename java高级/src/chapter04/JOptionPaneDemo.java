@@ -16,7 +16,7 @@ public class JOptionPaneDemo extends JFrame {
     private JButton btnInput, btnMsg, btnConfirm, btnOption;
 
     public JOptionPaneDemo() {
-        super("JOptionPane标准对话框");
+        super("JOptionPaneDemo");
 
         p = new JPanel();
 
