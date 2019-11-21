@@ -7,14 +7,14 @@ import java.util.Random;
 /**
  * name: Baiquan Wang
  * student id: 47431271
- * Lab 6-Fall 2019
+ * Lab 7-Fall 2019
  */
 public class Balloon {
-    private int balloonNumber;
-    private int money;
-    private boolean popped;
-    private boolean peruna;
-    private boolean hornedFrog;
+    protected int balloonNumber;
+    protected int money;
+    protected boolean popped;
+    protected boolean peruna;
+    protected boolean hornedFrog;
 
     // Money format
     private NumberFormat moneyFormat = new DecimalFormat("$###,###,###,###");
@@ -108,5 +108,8 @@ public class Balloon {
                 " Peruna: " + String.format("%5s", this.peruna) +
                 " Horned Frog: " + String.format("%5s", this.hornedFrog) +
                 " Money: " + moneyFormat.format(this.money);
+    }
+    public void handlePop(Player player){
+
     }
 }

@@ -1,7 +1,5 @@
 package chapter04practice;
 
-import chapter08.Balloon;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

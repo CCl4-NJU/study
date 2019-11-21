@@ -2,16 +2,17 @@ package chapter08;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
  * name: Baiquan Wang
  * student id: 47431271
- * Lab 6-Fall 2019
+ * Lab 7-Fall 2019
  */
 public class PerunaPop {
     private GameBoard gb;
-    private Player[] players;
+    private ArrayList<Player> players;
     // Money format
     private NumberFormat moneyFormat = new DecimalFormat("$###,###,###,###");
 
@@ -22,13 +23,13 @@ public class PerunaPop {
 
     public void createPlayers() {
         System.out.println("Welcome to Peruna Pop!\n");
-        this.players = new Player[2];
+        this.players = new ArrayList<Player>();
         Scanner scanner = new Scanner(System.in);
 
-        for (int i = 0; i < players.length; i++) {
+        for (int i = 0; i < 2; i++) {
             System.out.print("Player " + (i + 1) + " name: ");
             String player = scanner.next();
-            this.players[i] = new Player(player);
+            this.players.add(new Player(player));
         }
         System.out.print("\n");
     }
@@ -43,23 +44,25 @@ public class PerunaPop {
 //                }
 //            }
             //player0
-            System.out.println(this.players[0].getName() + "'s turn");
-            players[0].takeTurn(gb);
-            if (players[0].getPerunaCount() == 3) {
+            System.out.println(this.players.get(0).getName() + "'s turn");
+            players.get(0).takeTurn(gb);
+            if (players.get(0).getPerunaCount() == 3) {
                 break;
             }
             //player1
-            System.out.println(this.players[1].getName() + "'s turn");
-            players[1].takeTurn(gb);
-            if (players[1].getPerunaCount() == 3) {
+            System.out.println(this.players.get(1).getName() + "'s turn");
+            players.get(1).takeTurn(gb);
+            if (players.get(1).getPerunaCount() == 3) {
                 break;
             }
 
         }
-        if (players[0].getMoney() > players[1].getMoney()) {
-            System.out.println("Game over!! " + players[0].getName() + " won with " + moneyFormat.format(players[0].getMoney())+"!");
-        } else {
-            System.out.println("Game over!! " + players[1].getName() + " won with " + moneyFormat.format(players[1].getMoney())+"!");
+        if (players.get(0).getMoney() > players.get(1).getMoney()) {
+            System.out.println("Game over!! " + players.get(0).getName() + " won with " + moneyFormat.format(players.get(0).getMoney())+"!");
+        } else if(players.get(0).getMoney() < players.get(1).getMoney()){
+            System.out.println("Game over!! " + players.get(1).getName() + " won with " + moneyFormat.format(players.get(1).getMoney())+"!");
+        }else{
+            System.out.println("Game over!! You guys are even");
         }
 
     }

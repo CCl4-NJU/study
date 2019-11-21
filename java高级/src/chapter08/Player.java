@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * name: Baiquan Wang
  * student id: 47431271
- * Lab 6-Fall 2019
+ * Lab 7-Fall 2019
  */
 
 public class Player {
@@ -53,30 +53,10 @@ public class Player {
                 if (balloon.getPopped()) {
                     System.out.println("Balloon was already popped!");
                 } else {
-                    handlePop(balloon);
+                    balloon.handlePop(this);
                     break;
                 }
             }
-        }
-    }
-
-    public void handlePop(Balloon balloon) {
-        balloon.pop();
-        if (balloon.getPeruna()) {
-            this.perunaCount += 1;
-            System.out.println("Popped a Peruna!" +
-                    " " + this.name + "'s Peruna Count is now " + this.perunaCount +
-                    " with $ " + this.money + "!\n");
-        } else if (balloon.getHornedFrog()) {
-            this.money = 0;
-            System.out.println("Popped a HornedFrog!" +
-                    " " + this.name + "'s Peruna Count is now " + this.perunaCount +
-                    " with $ " + this.money + "!\n");
-        } else {
-            this.money += balloon.getMoney();
-            System.out.println("Popped $ " + balloon.getMoney() + "!" +
-                    " " + this.name + "'s Peruna Count is now " + this.perunaCount +
-                    " with $ " + this.money + "!\n");
         }
     }
 }
