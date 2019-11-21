@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1525782579 source:d:\root\pat-c\最小生成树\main.cpp
+	<iostream>
+	<stdio.h>
+	<algorithm>
+

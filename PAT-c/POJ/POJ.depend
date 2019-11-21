@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1526031072 source:d:\root\pat-c\poj\main.cpp
+	<iostream>
+	<stdio.h>
+	<math.h>
+

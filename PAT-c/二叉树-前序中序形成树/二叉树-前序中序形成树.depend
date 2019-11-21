@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524568941 source:d:\root\pat-c\二叉树-前序中序形成树\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1513133592 source:d:\root\c\ping\main.c
+	<windows.h>
+	<stdio.h>
+	<string.h>
+

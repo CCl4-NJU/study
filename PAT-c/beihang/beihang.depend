@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1526602658 source:d:\root\pat-c\beihang\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+
