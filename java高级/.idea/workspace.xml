@@ -2,79 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter07/ClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/ConstructorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/CurrencyFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/DateFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/DateTimeFormatterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/DeprecatedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/EnumMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/FieldDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/FunctionalInterfaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/InheritedAnnol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/InheritedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/LocaleDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/MessageFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/MethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/MethodParameterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/MyAnno1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/MyAnno1Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/MyClassLoader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/MyClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/NumberFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/OverrideDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/RepeatableAnnol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/RepeatableAnnolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/ResourceBundleDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/SafeVarargsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/SeasonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/SeasonEnum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/SeasonEnum2Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/SeasonEnumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/SimpleDateFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/SuppressWarningsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter07/TypeAnnotationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter08/HornedFrog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter08/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter08/Peruna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter08/balloonValues.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/JDialogDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/JDialogDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/JDialogDemo$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/JDialogDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$BtnListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$BtnListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/LoginDialog$BtnListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/LoginDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/MyDialog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/MyDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/RegisterDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/TextComponentDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/TextComponentDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/TextComponentDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter07/Pop1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter07/Pop2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter07/Pop3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/Balloon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/Balloon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/GameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/PerunaPop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/PerunaPop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter04practice/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04practice/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/Pop1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/Pop2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/Pop3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/Balloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/Balloon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/GameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/PerunaPop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/PerunaPop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,14 +48,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -159,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Launcher">
+  <component name="RunManager" selected="Application.Login">
     <configuration name="CurrencyFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter07.CurrencyFormatDemo" />
       <module name="java高级" />
@@ -248,10 +178,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Login" />
         <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.CurrencyFormatDemo" />
         <item itemvalue="Application.DateFormatDemo" />
-        <item itemvalue="Application.Login" />
         <item itemvalue="Application.JTreeDemo" />
       </list>
     </recent_temporary>
@@ -303,6 +233,8 @@
       <workItem from="1574084892485" duration="14000" />
       <workItem from="1574219241112" duration="8840000" />
       <workItem from="1574249419198" duration="37000" />
+      <workItem from="1574329914922" duration="552000" />
+      <workItem from="1574330475250" duration="881000" />
     </task>
     <servers />
   </component>
