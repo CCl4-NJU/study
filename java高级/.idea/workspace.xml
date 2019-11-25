@@ -4,7 +4,12 @@
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter04practice/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04practice/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$BtnListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$BtnListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/PerunaPop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/PerunaPop.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,6 +240,9 @@
       <workItem from="1574249419198" duration="37000" />
       <workItem from="1574329914922" duration="552000" />
       <workItem from="1574330475250" duration="881000" />
+      <workItem from="1574492656668" duration="189000" />
+      <workItem from="1574583939373" duration="497000" />
+      <workItem from="1574586309545" duration="76000" />
     </task>
     <servers />
   </component>
