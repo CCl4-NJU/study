@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter08/Base64Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/ConstructorMethodReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/FIConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/FunctionalInterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/IDefaultStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/IDefaultStaticDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/LambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/LambdaDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/LambdaDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/LambdaDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/MethodReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/ParallelArraysDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter08/StreamDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$BtnListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$BtnListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login$RegisterDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter04practice/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/PerunaPop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/PerunaPop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter05/LambdaCallableFutureDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter05/LambdaCallableFutureDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/LambdaCallableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/LambdaCallableFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter08/Balloon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter08/GameBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter08/HornedFrog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter08/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter08/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter08/Peruna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter08/PerunaPop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter08/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter08/balloonValues.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +72,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter08" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,19 +86,19 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="chapter04practice" />
-      <recent name="chapter07" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/chapter08" />
       <recent name="$PROJECT_DIR$/src/chapter07" />
       <recent name="$PROJECT_DIR$/src/chapter04practice" />
       <recent name="$PROJECT_DIR$/src/chapter06" />
       <recent name="$PROJECT_DIR$/src/chapter05" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter04practice" />
+      <recent name="chapter07" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,48 +113,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Login">
-    <configuration name="CurrencyFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter07.CurrencyFormatDemo" />
-      <module name="java高级" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter07.DateFormatDemo" />
-      <module name="java高级" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter04.JTreeDemo" />
-      <module name="java高级" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter08.Launcher" />
+  <component name="RunManager" selected="Application.Base64Demo">
+    <configuration name="Base64Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter08.Base64Demo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
@@ -147,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter04practice.Login" />
+    <configuration name="ClientSocketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter06.ClientSocketDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter04practice.*" />
+          <option name="PATTERN" value="chapter06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,21 +153,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="URLConnectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter06.URLConnectionDemo" />
+      <module name="java高级" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLDecoderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter06.URLDecoderDemo" />
+      <module name="java高级" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter06.URLDemo" />
+      <module name="java高级" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.NIO2FilesDemo" />
-      <item itemvalue="Application.JTreeDemo" />
-      <item itemvalue="Application.Login" />
-      <item itemvalue="Application.DateFormatDemo" />
-      <item itemvalue="Application.CurrencyFormatDemo" />
-      <item itemvalue="Application.Launcher" />
+      <item itemvalue="Application.ClientSocketDemo" />
+      <item itemvalue="Application.URLDemo" />
+      <item itemvalue="Application.URLDecoderDemo" />
+      <item itemvalue="Application.URLConnectionDemo" />
+      <item itemvalue="Application.Base64Demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.CurrencyFormatDemo" />
-        <item itemvalue="Application.DateFormatDemo" />
-        <item itemvalue="Application.JTreeDemo" />
+        <item itemvalue="Application.Base64Demo" />
+        <item itemvalue="Application.URLConnectionDemo" />
+        <item itemvalue="Application.URLDecoderDemo" />
+        <item itemvalue="Application.URLDemo" />
+        <item itemvalue="Application.ClientSocketDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +262,7 @@
       <workItem from="1574492656668" duration="189000" />
       <workItem from="1574583939373" duration="497000" />
       <workItem from="1574586309545" duration="76000" />
+      <workItem from="1574924484487" duration="3431000" />
     </task>
     <servers />
   </component>
