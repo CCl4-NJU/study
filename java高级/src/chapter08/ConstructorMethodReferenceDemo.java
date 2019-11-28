@@ -1,9 +1,9 @@
 package chapter08;
 
-//��Ʒ��Product
+//产品类Product
 class Product {
-	String name; // ����
-	int quantity; // ����
+	String name; // 名称
+	int quantity; // 产量
 
 	Product() {
 	}
@@ -15,11 +15,11 @@ class Product {
 
 	@Override
 	public String toString() {
-		return "��Ʒ��" + this.name + " ������" + this.quantity;
+		return "产品：" + this.name + " 产量：" + this.quantity;
 	}
 }
 
-// �Ӳ�Ʒ��ChildP�̳�Product
+// 子产品类ChildP继承Product
 class ChildP extends Product {
 	ChildP() {
 	}
@@ -30,11 +30,11 @@ class ChildP extends Product {
 
 	@Override
 	public String toString() {
-		return "�Ӳ�Ʒ��" + this.name + " ������" + this.quantity;
+		return "子产品：" + this.name + " 产量：" + this.quantity;
 	}
 }
 
-// ��Ʒ����������ʽ�ӿڣ�
+// 产品工厂（函数式接口）
 @FunctionalInterface
 interface ProductFactory<P extends Product> {
 	P create(String name, int quantity);
@@ -44,11 +44,11 @@ public class ConstructorMethodReferenceDemo {
 
 	public static void main(String[] args) {
 		ProductFactory<Product> productFactory = Product::new;
-		Product p1 = productFactory.create("��ӡ��", 1000);
+		Product p1 = productFactory.create("打印机", 1000);
 		System.out.println(p1);
 
 		ProductFactory<ChildP> childPFactory = ChildP::new;
-		ChildP p2 = childPFactory.create("��ӡ��", 100);
+		ChildP p2 = childPFactory.create("复印机", 100);
 		System.out.println(p2);
 	}
 

@@ -8,15 +8,15 @@ import java.util.stream.Collectors;
 
 
 
-//ö��Status
+//枚举Status
 enum Status {
 	OPEN, CLOSED
 }
 
-// ������Task
+// 任务类Task
 class Task {
-	private final Status status;// ״̬
-	private final Integer points;// ���������Ӷȣ�
+	private final Status status;// 状态
+	private final Integer points;// 分数（复杂度）
 
 	Task(final Status status, final Integer points) {
 		this.status = status;
@@ -45,32 +45,32 @@ public class StreamDemo {
 				new Task(Status.OPEN, 13),
 				new Task(Status.CLOSED, 8));
 
-		// ʹ�ô�ͳ��ʽͳ��״̬ΪOPEN�������ܷ�
+		// 使用传统方式统计状态为OPEN的任务总分
 		int sum = 0;
 		for (Task t : tasks) {
 			if (t.getStatus() == Status.OPEN) {
 				sum += t.getPoints();
 			}
 		}
-		System.out.println("forѭ��ͳ��״̬ΪOPEN�������ܷ�Ϊ��" + sum);
+		System.out.println("for循环统计状态为OPEN的任务总分为：" + sum);
 
-		// ʹ��Stream����ʽͳ��״̬ΪOPEN�������ܷ�
+		// 使用Stream流方式统计状态为OPEN的任务总分
 		int totalPointsOfOpenTasks = tasks.stream()
 				.filter(t -> t.getStatus() == Status.OPEN)
 				.mapToInt(Task::getPoints).sum();
 
-		System.out.println("ʹ��Stream����ʽͳ��״̬ΪOPEN�������ܷ�Ϊ��"
+		System.out.println("使用Stream流方式统计状态为OPEN的任务总分为："
 				+ totalPointsOfOpenTasks);
 
-		// ʹ��Stream����ʽ�������������ܷ�
+		// 使用Stream流方式计算所有任务总分
 		int totalPoints = tasks.stream()
 				.parallel()
 				.map(Task::getPoints)
 				.reduce(0, Integer::sum);
 
-		System.out.println("���������ܷ�: " + totalPoints);
+		System.out.println("所有任务总分: " + totalPoints);
 
-		// ����״̬���з���
+		// 按照状态进行分组
 		Map<Status, List<Task>> map = tasks.stream()
 				.collect(Collectors.groupingBy(Task::getStatus));
 		System.out.println(map);

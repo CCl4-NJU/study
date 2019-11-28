@@ -48,6 +48,7 @@
     <file url="file://$PROJECT_DIR$/src/chapter07/CurrencyFormatDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/chapter07/DateFormatDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/chapter07/DeprecatedDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter08/Base64Demo.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

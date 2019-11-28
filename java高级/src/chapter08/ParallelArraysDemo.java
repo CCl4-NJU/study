@@ -6,48 +6,48 @@ import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
-//�����������
+//并行数组操作
 public class ParallelArraysDemo {
 
 	public static void main(String[] args) {
-		// ����һ������Ϊ20000������
+		// 定义一个长度为20000的数组
 		Integer[] arrayOfLong = new Integer[20000];
-		// ʹ��parallelSetAll()������������и�ֵ
+		// 使用parallelSetAll()方法对数组进行赋值
 		Arrays.parallelSetAll(arrayOfLong, index -> ThreadLocalRandom.current()
 				.nextInt(1000000));
 
-		// ���ǰʮ����
-		System.out.println("δ�����ǰ10������");
+		// 输出前十个数
+		System.out.println("未排序的前10个数：");
 		Arrays.stream(arrayOfLong).limit(10)
 				.forEach(i -> System.out.print(i + " "));
 		System.out.println();
 
-		// ʹ��parallelSort()�����������������
+		// 使用parallelSort()方法对数组进行排序
 		Arrays.parallelSort(arrayOfLong);
-		// ���ǰʮ����
-		System.out.println("������ǰ10������");
+		// 输出前十个数
+		System.out.println("排序后的前10个数：");
 		Arrays.stream(arrayOfLong).limit(10)
 				.forEach(i -> System.out.print(i + " "));
 		System.out.println();
 
-		// ������ת����List����
+		// 将数组转换成List集合
 		List<Integer> list = Arrays.asList(arrayOfLong);
-		// ����������ż����������з���
+		// 按照奇数、偶数对数组进行分组
 		Map<Boolean, List<Integer>> groupByOdd = list.parallelStream().collect(
 				Collectors.groupingBy(x -> x % 2 == 0));
-		// ���ǰ10������
-		System.out.println("ǰ10��������");
+		// 输出前10个奇数
+		System.out.println("前10个奇数：");
 		groupByOdd.get(false).parallelStream().limit(10)
 				.forEach(i -> System.out.print(i + " "));
 		System.out.println();
-		// ���ǰ10��ż��
-		System.out.println("ǰ10��������");
+		// 输出前10个偶数
+		System.out.println("前10个奇数：");
 		groupByOdd.get(true).parallelStream().limit(10)
 				.forEach(i -> System.out.print(i + " "));
 		System.out.println();
 
-		System.out.println("ǰ10��5�ı�����");
-		// ��������й��ˣ����˳�5�ı���,�����ǰ10��
+		System.out.println("前10个5的倍数：");
+		// 对数组进行过滤，过滤出5的倍数,并输出前10个
 		list.parallelStream().filter(x -> x % 5 == 0).limit(10)
 				.forEach(i -> System.out.print(i + " "));
 		System.out.println();

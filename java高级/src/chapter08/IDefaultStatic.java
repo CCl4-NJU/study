@@ -1,17 +1,17 @@
 package chapter08;
 
 public interface IDefaultStatic {
-	// ���󷽷�
+	// 抽象方法
 	double calculate(int a);
 
-	// Ĭ�Ϸ���
+	// 默认方法
 	default double sqrt(int a) {
 		return Math.sqrt(a);
 	}
 
-	// ��̬����
+	// 静态方法
 	static String msg() {
-		return "�ӿ��еľ�̬����";
+		return "接口中的静态方法";
 	}
 
 }

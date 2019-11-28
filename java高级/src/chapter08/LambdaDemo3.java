@@ -15,24 +15,24 @@ public class LambdaDemo3 extends JFrame {
 	JButton btn1, btn2;
 
 	public LambdaDemo3() {
-		super("Lambda����");
+		super("Lambda测试");
 		p = new JPanel();
 
 		ta = new JTextArea();
 
-		btn1 = new JButton("��ͳ��ʽ");
-		btn2 = new JButton("Lambda��ʽ");
+		btn1 = new JButton("传统方式");
+		btn2 = new JButton("Lambda方式");
 
-		// ��Ӽ�����
+		// 添加监听器
 		btn1.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				ta.append("������˰�ť1\n");
+				ta.append("您点击了按钮1\n");
 			}
 		});
 
-		// Lambda���ʽ��ʽ
-		btn2.addActionListener(e -> ta.append("������˰�ť2\n"));
+		// Lambda表达式方式
+		btn2.addActionListener(e -> ta.append("您点击了按钮2\n"));
 
 		this.add(ta);
 
