@@ -23,6 +23,7 @@ public class ThreadLifeDemo {
 		//线程休眠1000毫秒（即1秒）
 		try {
 			Thread.sleep(1000);
+
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

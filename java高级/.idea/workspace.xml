@@ -3,22 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/Base64Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/Base64Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/ConstructorMethodReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/ConstructorMethodReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/FIConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/FIConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/FunctionalInterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/FunctionalInterfaceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/IDefaultStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/IDefaultStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/IDefaultStaticDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/IDefaultStaticDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/LambdaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/LambdaDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/LambdaDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/LambdaDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/LambdaDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/LambdaDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/LambdaDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/MethodReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/MethodReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/OptionalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/ParallelArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/ParallelArraysDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter05/MoveButtonThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter05/MoveButtonThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter05/ThreadLifeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter05/ThreadLifeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/ChildP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/ChildP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/ConstructorMethodReferenceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/ConstructorMethodReferenceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/IDefaultStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/IDefaultStatic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/LambdaDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/LambdaDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/LambdaDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/LambdaDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/LambdaDemo3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/LambdaDemo3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/LambdaDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/LambdaDemo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/ParallelArraysDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/ParallelArraysDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter08/StreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter08/StreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/MoveButtonThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/MoveButtonThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter05/ThreadLifeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter05/ThreadLifeDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,13 +102,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Base64Demo">
-    <configuration name="Base64Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter08.Base64Demo" />
+  <component name="RunManager" selected="Application.MoveButtonThreadDemo">
+    <configuration name="MoveButtonThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter05.MoveButtonThreadDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter08.*" />
+          <option name="PATTERN" value="chapter05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientSocketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter06.ClientSocketDemo" />
+    <configuration name="MoveButtonTimerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter05.MoveButtonTimerDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter06.*" />
+          <option name="PATTERN" value="chapter05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLConnectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter06.URLConnectionDemo" />
+    <configuration name="SynBlockBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter05.SynBlockBank" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter06.*" />
+          <option name="PATTERN" value="chapter05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLDecoderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter06.URLDecoderDemo" />
+    <configuration name="SynLockBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter05.SynLockBank" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter06.*" />
+          <option name="PATTERN" value="chapter05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter06.URLDemo" />
+    <configuration name="WaitNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter05.WaitNotifyDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter06.*" />
+          <option name="PATTERN" value="chapter05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,19 +183,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NIO2FilesDemo" />
-      <item itemvalue="Application.ClientSocketDemo" />
-      <item itemvalue="Application.URLDemo" />
-      <item itemvalue="Application.URLDecoderDemo" />
-      <item itemvalue="Application.URLConnectionDemo" />
-      <item itemvalue="Application.Base64Demo" />
+      <item itemvalue="Application.SynLockBank" />
+      <item itemvalue="Application.SynBlockBank" />
+      <item itemvalue="Application.MoveButtonThreadDemo" />
+      <item itemvalue="Application.MoveButtonTimerDemo" />
+      <item itemvalue="Application.WaitNotifyDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Base64Demo" />
-        <item itemvalue="Application.URLConnectionDemo" />
-        <item itemvalue="Application.URLDecoderDemo" />
-        <item itemvalue="Application.URLDemo" />
-        <item itemvalue="Application.ClientSocketDemo" />
+        <item itemvalue="Application.MoveButtonThreadDemo" />
+        <item itemvalue="Application.WaitNotifyDemo" />
+        <item itemvalue="Application.MoveButtonTimerDemo" />
+        <item itemvalue="Application.SynBlockBank" />
+        <item itemvalue="Application.SynLockBank" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +251,9 @@
       <workItem from="1574492656668" duration="189000" />
       <workItem from="1574583939373" duration="497000" />
       <workItem from="1574586309545" duration="76000" />
-      <workItem from="1574924484487" duration="4078000" />
+      <workItem from="1574924484487" duration="12822000" />
+      <workItem from="1575034742685" duration="4000" />
+      <workItem from="1575092741874" duration="39000" />
     </task>
     <servers />
   </component>

@@ -27,6 +27,7 @@ public class MoveButtonThreadDemo extends JFrame implements Runnable {
 		p.add(btnMove);
 		this.add(p);
 		this.setSize(400, 300);
+		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		// 创建线程对象
@@ -77,6 +78,5 @@ public class MoveButtonThreadDemo extends JFrame implements Runnable {
 
 	public static void main(String[] args) {
 		MoveButtonThreadDemo f = new MoveButtonThreadDemo();
-		f.setVisible(true);
 	}
 }
