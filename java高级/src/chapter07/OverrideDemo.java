@@ -1,4 +1,4 @@
-package com.qst.chapter07;
+package chapter07;
 
 class Father {
 	public void info() {

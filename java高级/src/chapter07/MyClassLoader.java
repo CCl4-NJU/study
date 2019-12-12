@@ -1,4 +1,4 @@
-package com.qst.chapter07;
+package chapter07;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,7 +17,7 @@ public class MyClassLoader extends ClassLoader {
 		// 调用ClassLoader的defineClass方法将二进制数据转换成Class对象
 		return this.defineClass(className, data, 0, data.length);
 	}
-	
+
 	public byte[] loadClassData(String className) {
 		try {
 			// 获取获取当前项目路径
@@ -46,11 +46,11 @@ public class MyClassLoader extends ClassLoader {
 	public static void main(String[] args) throws InstantiationException,
 			IllegalAccessException, ClassNotFoundException {
 		// 新建一个类加载器
-		MyClassLoader mcl = new MyClassLoader(); 
-		
+		MyClassLoader mcl = new MyClassLoader();
+
 		// 加载类，得到Class对象
 		Class<?> clazz = mcl.loadClass("com.qst.chapter07.Animal");
-		
+
 		// 获取类的实例
 		Animal animal = (Animal) clazz.newInstance();
 		animal.say();

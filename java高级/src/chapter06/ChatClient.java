@@ -56,7 +56,7 @@ public class ChatClient extends JFrame {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		try {
 			// 创建一个套接字
-			socket = new Socket("127.0.0.1", 28888);
+			socket = new Socket("219.219.198.145", 30000);
 			// 创建一个往套接字中写数据的管道，即输出流，给服务器发送信息
 			pWriter = new PrintWriter(socket.getOutputStream());
 			// 创建一个从套接字读数据的管道，即输入流，读服务器的返回信息

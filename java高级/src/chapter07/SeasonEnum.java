@@ -1,4 +1,4 @@
-package com.qst.chapter07;
+package chapter07;
 
 public enum SeasonEnum {
 	// 在第一行列出4个枚举实例:春、夏、秋、冬

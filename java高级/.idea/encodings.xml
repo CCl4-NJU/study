@@ -47,7 +47,31 @@
     <file url="file://$PROJECT_DIR$/src/chapter07/ConstructorDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/chapter07/CurrencyFormatDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/chapter07/DateFormatDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/DateTimeFormatterDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/chapter07/DeprecatedDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/EnumMethodDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/FieldDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/FunctionalInterfaceDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/InheritedDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/LocaleDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/MessageFormatDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/MethodDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/MethodParameterDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/MyAnno1Demo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/MyClassLoader.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/NumberFormatDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/OverrideDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/RepeatableAnnol.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/RepeatableAnnolDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/ResourceBundleDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/SafeVarargsDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/SeasonEnum.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/SeasonEnum2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/SeasonEnum2Demo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/SeasonEnumDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/SimpleDateFormatDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/SuppressWarningsDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/chapter07/TypeAnnotationDemo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/chapter08/Base64Demo.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

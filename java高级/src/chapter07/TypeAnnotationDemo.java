@@ -1,4 +1,4 @@
-package com.qst.chapter07;
+package chapter07;
 
 import java.io.FileNotFoundException;
 import java.io.Serializable;

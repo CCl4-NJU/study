@@ -1,4 +1,4 @@
-package com.qst.chapter07;
+package chapter07;
 
 @RepeatableAnnol(age = 10)
 @RepeatableAnnol(name = "ÕÔ¿ËÁá", age = 36)

@@ -1,4 +1,4 @@
-package com.qst.chapter07;
+package chapter07;
 
 //带构造方法的枚举类
 public enum SeasonEnum2 {

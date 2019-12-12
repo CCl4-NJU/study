@@ -1,4 +1,4 @@
-package com.qst.chapter07;
+package chapter07;
 
 public class SeasonEnum2Demo {
 	public static void main(String[] args) {

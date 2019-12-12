@@ -12,7 +12,7 @@ public class ClientSocketDemo {
 	public static void main(String[] args) {
 		try {
 			//创建连接到本机、端口为28888的Socket对象
-			Socket socket = new Socket("127.0.0.1", 28888);
+			Socket socket = new Socket("219.219.198.145", 28888);
 			// 将Socket对应的输出流包装成PrintStream
 			PrintStream ps = new PrintStream(socket.getOutputStream());
 			// 往服务器发送信息

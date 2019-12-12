@@ -1,4 +1,4 @@
-package com.qst.chapter07;
+package chapter07;
 
 //使用自定义的@InheritedAnnol注解修饰的Base类
 @InheritedAnnol(comment = "继承注解", order = 2)
