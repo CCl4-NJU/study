@@ -2,45 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1702d6-01a6-4920-9f48-e71896a13921" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myres.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myres_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myres_zh_CN.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/../MachineLearning(机器学习实战)/machinelearninginaction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter06/ChatClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter06/ChatClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter06/ClientSocketDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter06/ClientSocketDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/chapter06/URLDecoderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/chapter06/URLDecoderDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MyClassLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter06/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter06/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter06/ClientSocketDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter06/ClientSocketDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter06/URLDecoderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter06/URLDecoderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/DeprecatedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/DeprecatedDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/EnumMethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/EnumMethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/FieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/FieldDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/FunctionalInterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/FunctionalInterfaceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/InheritedAnnol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/InheritedAnnol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/InheritedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/InheritedDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/LocaleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/LocaleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/MessageFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/MessageFormatDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/MethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/MethodParameterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/MethodParameterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/MyAnno1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/MyAnno1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/MyAnno1Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/MyAnno1Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/MyClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/NumberFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/NumberFormatDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/OverrideDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/OverrideDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/RepeatableAnnol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/RepeatableAnnol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/RepeatableAnnolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/RepeatableAnnolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java高级.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java高级.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/META-INF/java高级.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java高级/META-INF/java高级.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/AnnolContents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/DeprecatedDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/EnumMethodDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/FieldDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/FunctionalInterfaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/InheritedAnnol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/InheritedDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/LocaleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MessageFormatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MethodDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MethodParameterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MyAnno1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MyAnno1Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MyClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/NotNull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/NumberFormatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/OverrideDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/RepeatableAnnol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/RepeatableAnnolDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/ResourceBundleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/SafeVarargsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/SeasonEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/SeasonEnum2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/SeasonEnum2Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/SeasonEnum2Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/SeasonEnumDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/SeasonEnumDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/SimpleDateFormatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/SuppressWarningsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java高级/com/qst/chapter07/TypeAnnotationDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/DeprecatedDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/FunctionalInterfaceDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/InheritedAnnol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/InheritedDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/MyClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/RepeatableAnnol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/RepeatableAnnolDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter07/ResourceBundleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/ResourceBundleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/SafeVarargsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/SafeVarargsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/SeasonEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/SeasonEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/SeasonEnum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/SeasonEnum2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/SeasonEnum2Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/SeasonEnum2Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/SeasonEnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/SeasonEnumDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/SimpleDateFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/SimpleDateFormatDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/SuppressWarningsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/SuppressWarningsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter07/TypeAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter07/TypeAnnotationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/SafeVarargsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/SuppressWarningsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter07/TypeAnnotationDemo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +85,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -102,54 +121,55 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/chapter09" />
+      <recent name="$PROJECT_DIR$/src/chapter08" />
+      <recent name="$PROJECT_DIR$/src/chapter07" />
+      <recent name="$PROJECT_DIR$/src/chapter04practice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="chapter04practice" />
       <recent name="chapter07" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/chapter09" />
-      <recent name="$PROJECT_DIR$/src/chapter08" />
-      <recent name="$PROJECT_DIR$/src/chapter07" />
-      <recent name="$PROJECT_DIR$/src/chapter04practice" />
-      <recent name="$PROJECT_DIR$/src/chapter06" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chapter07/resources" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CurrencyFormatDemo">
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter06.ChatClient" />
-      <module name="java高级" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientSocketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter06.ClientSocketDemo" />
-      <module name="java高级" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DateTimeFormatterDemo">
     <configuration name="CurrencyFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter07.CurrencyFormatDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapter07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter07.DateFormatDemo" />
+      <module name="java高级" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeFormatterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qst.chapter07.DateTimeFormatterDemo" />
+      <module name="java高级" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qst.chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerSocketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter06.ServerSocketDemo" />
+    <configuration name="NumberFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter07.NumberFormatDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter06.*" />
+          <option name="PATTERN" value="chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLConnectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter06.URLConnectionDemo" />
+    <configuration name="ResourceBundleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter07.ResourceBundleDemo" />
       <module name="java高级" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter06.*" />
+          <option name="PATTERN" value="chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +218,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.NIO2FilesDemo" />
-      <item itemvalue="Application.URLConnectionDemo" />
-      <item itemvalue="Application.ServerSocketDemo" />
-      <item itemvalue="Application.ClientSocketDemo" />
-      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.ResourceBundleDemo" />
+      <item itemvalue="Application.NumberFormatDemo" />
       <item itemvalue="Application.CurrencyFormatDemo" />
+      <item itemvalue="Application.DateFormatDemo" />
+      <item itemvalue="Application.DateTimeFormatterDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateTimeFormatterDemo" />
+        <item itemvalue="Application.DateFormatDemo" />
         <item itemvalue="Application.CurrencyFormatDemo" />
-        <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.ClientSocketDemo" />
-        <item itemvalue="Application.ServerSocketDemo" />
-        <item itemvalue="Application.URLConnectionDemo" />
+        <item itemvalue="Application.NumberFormatDemo" />
+        <item itemvalue="Application.ResourceBundleDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -287,8 +307,18 @@
       <workItem from="1575686950310" duration="10336000" />
       <workItem from="1575714605605" duration="185000" />
       <workItem from="1575773050028" duration="34000" />
-      <workItem from="1576115136774" duration="749000" />
+      <workItem from="1576115136774" duration="2063000" />
+      <workItem from="1576117830291" duration="5197000" />
+      <workItem from="1576145076735" duration="8345000" />
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1576116022586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576116022586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,11 +339,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="570" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576115162842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="570" y="346" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1576115162842" />
+    <state x="314" y="48" key="CommitChangelistDialog2" timestamp="1576116020364">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="314" y="48" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576116020364" />
+    <state width="1398" height="162" key="GridCell.Tab.0.bottom" timestamp="1576199074401">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="162" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576199074401" />
+    <state width="1398" height="162" key="GridCell.Tab.0.bottom/0.23.1440.786@0.23.1440.786" timestamp="1576123404033" />
+    <state width="1398" height="162" key="GridCell.Tab.0.center" timestamp="1576199074399">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="162" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576199074399" />
+    <state width="1398" height="162" key="GridCell.Tab.0.center/0.23.1440.786@0.23.1440.786" timestamp="1576123404031" />
+    <state width="1398" height="162" key="GridCell.Tab.0.left" timestamp="1576199074398">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="162" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576199074398" />
+    <state width="1398" height="162" key="GridCell.Tab.0.left/0.23.1440.786@0.23.1440.786" timestamp="1576123404030" />
+    <state width="1398" height="162" key="GridCell.Tab.0.right" timestamp="1576199074400">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="162" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576199074400" />
+    <state width="1398" height="162" key="GridCell.Tab.0.right/0.23.1440.786@0.23.1440.786" timestamp="1576123404032" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1576123613495">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576123613495" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1576116024938">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576116024938" />
   </component>
 </project>

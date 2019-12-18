@@ -13,7 +13,6 @@ public class ResourceBundleDemo {
 		System.out.println(resb1.getString("title"));
 		System.out.println(resb1.getString("name"));
 		System.out.println("-----------------------------");
-
 		Locale localeEn = new Locale("en", "US");
 		// 英语资源文件myres_en_US.properties
 		ResourceBundle resb2 = ResourceBundle.getBundle("myres", localeEn);
