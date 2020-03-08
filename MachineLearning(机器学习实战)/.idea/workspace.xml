@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7588eef-7c0c-42d5-8eb5-567e14d86468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter05/logRegres.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/testSet.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter03/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter03/treePlotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/treePlotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter03/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/trees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter05/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/logRegres.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/machinelearninginaction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/machinelearninginaction/Ch02/kNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" afterDir="false" />
@@ -26,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/machinelearninginaction" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1X9K6VeJusPhYMlDvaoHGzIqxEN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (3)">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning(机器学习实战)" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="treePlotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning(机器学习实战)" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +168,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/treePlotter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.treePlotter" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +206,9 @@
       <workItem from="1569381338065" duration="45000" />
       <workItem from="1569824984799" duration="5323000" />
       <workItem from="1580452701557" duration="2576000" />
-      <workItem from="1581233570138" duration="11264000" />
+      <workItem from="1581233570138" duration="12835000" />
+      <workItem from="1583052238830" duration="3019000" />
+      <workItem from="1583303733872" duration="584000" />
     </task>
     <servers />
   </component>
@@ -243,12 +246,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MachineLearning__$test.coverage" NAME="test Coverage Results" MODIFIED="1581233792784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
-    <SUITE FILE_PATH="coverage/MachineLearning__$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1581410221437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter05" />
+    <SUITE FILE_PATH="coverage/MachineLearning__$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1581504227211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter05" />
+    <SUITE FILE_PATH="coverage/MachineLearning__$treePlotter.coverage" NAME="treePlotter Coverage Results" MODIFIED="1583058580559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
     <SUITE FILE_PATH="coverage/MachineLearning__$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1581389650887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
     <SUITE FILE_PATH="coverage/MachineLearning__$main.coverage" NAME="main Coverage Results" MODIFIED="1569828909136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/MachineLearning__$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1581397086626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter04" />
     <SUITE FILE_PATH="coverage/MachineLearning__$kNN__1_.coverage" NAME="kNN (1) Coverage Results" MODIFIED="1569142245376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
-    <SUITE FILE_PATH="coverage/MachineLearning__$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1581235417937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
+    <SUITE FILE_PATH="coverage/MachineLearning__$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1583061448218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
     <SUITE FILE_PATH="coverage/MachineLearning__$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1568273847114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章 k-近邻算法" />
   </component>
 </project>

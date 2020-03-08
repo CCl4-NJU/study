@@ -3,7 +3,6 @@ from chapter03.treePlotter import *
 
 if __name__ == '__main__':
     myDat, labels = createDataSet()
-    print(calcShannonEnt(myDat))
-    print(splitDataSet(myDat, 0, 1))
-    myTree = retrieveTree(0)
+    myTree = createTree(myDat, labels)
+    print(myTree)
     createPlot(myTree)
