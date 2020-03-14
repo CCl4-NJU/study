@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c7588eef-7c0c-42d5-8eb5-567e14d86468" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/treePlotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/treePlotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter05/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/logRegres.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/machinelearninginaction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/Ch02/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/machinelearninginaction/Ch02/kNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" afterDir="false" />
@@ -209,6 +205,7 @@
       <workItem from="1581233570138" duration="12835000" />
       <workItem from="1583052238830" duration="3019000" />
       <workItem from="1583303733872" duration="584000" />
+      <workItem from="1584000824167" duration="151000" />
     </task>
     <servers />
   </component>
